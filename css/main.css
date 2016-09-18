@@ -1,0 +1,9 @@
+.jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('https://scontent-fra3-1.xx.fbcdn.net/v/t1.0-0/p206x206/12994415_10154061286215320_4032225325318043868_n.jpg?oh=2e8bee0684683f5a6960bd633f8e3469&oe=5880504F');
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+}
