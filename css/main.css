@@ -11,6 +11,23 @@
     display: inline-flex;
     bottom: 0;
 }
+.menu-icon{
+    height: 17px ;
+    resize: both;
+
+}
+ .left-side {
+     float: none;
+     display: table-cell;
+
+ }
+
+ .right-side {
+     float: none;
+     display: table-cell;
+
+ }
+
 .topnav-wrap {
     bottom: 0;
 }
