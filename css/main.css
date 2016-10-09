@@ -1,7 +1,16 @@
- .jumbotron {
+body {
+    font-family: 'Josefin Sans',  Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+    border-top: 3px solid #258225;
+    /*background: #643232;*/
+}
+
+.jumbotron {
     display: flex;
     align-items: center;
-    background-image: url('https://scontent-fra3-1.xx.fbcdn.net/v/t1.0-0/p206x206/12994415_10154061286215320_4032225325318043868_n.jpg?oh=2e8bee0684683f5a6960bd633f8e3469&oe=5880504F');
+    background-image: url("../img/jumbo_bckgrnd3.png");
     background-size: cover;
     color: #ffffff;
     height: 0px;
@@ -14,21 +23,31 @@
 }
 .menu-icon{
     height: 45px ;
-
-
 }
+ .right-side {
+     float: right;
+     display: table-cell;
+     padding: 15px;
+     /*display: inline-flex;*/
+
+
+ }
+
  .left-side {
      float: none;
-     display: table-cell;
+     /*display: table-cell;*/
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 40px !important;
+     color: #2a2a2a !important;
+     display: inline-block;
+     vertical-align: top;
 
  }
 
- .right-side {
-     float: none;
-     display: table-cell;
-
+ .long-icon{
+     /*-webkit-clip-path: polygon(77% 0, 100% 0, 100% 100%, 72% 100%);
+     clip-path: polygon(77% 0, 100% 0, 100% 100%, 72% 100%);*/
  }
-
 .topnav-wrap {
     bottom: 0;
 }
@@ -44,7 +63,7 @@
  #topnav ul li a {
      float: left;
      color: #5e5e5e;
-     font-size: 14px;
+     font-size: 24px;
      text-decoration: none;
      font-family: 'Proxima Nova', 'Myriad Pro', Arial, Helvetica, sans-serif;
      padding: 15px 10px 11px;
@@ -88,8 +107,13 @@
  #topnav ul li {
      list-style: none;
      float: left;
-     padding: 0 15px 0 0;
+     padding-top: 0;
+     padding-right: 15px;
+     padding-left: 15px;
+     padding-bottom: 0;
      list-style: none;
+     /*border-right: 2px solid #dedede;*/
+     border-left: 2px dashed #dedede;
  }
 
  li {
@@ -99,7 +123,9 @@
 
 
  #topnav-wrap {
-     border-top: 1px solid #dedede;
+     /*border-top: 1px solid #dedede;*/
+     border-top: 2px dashed #dedede;
+     border-bottom: 2px dashed #dedede;
      box-sizing: border-box;
      background: #fff url(theme/border-bottom.png?1474730211) left bottom repeat-x;
  }
@@ -110,4 +136,8 @@
 
  div {
      display: block;
+ }
+
+ .wsite-menu-item-wrap {
+     font-size: 35px;
  }
