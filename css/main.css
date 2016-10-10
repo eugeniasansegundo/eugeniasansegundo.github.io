@@ -139,5 +139,11 @@ body {
  }
 
  .wsite-menu-item-wrap {
+     display: list-item;
      font-size: 35px;
+     float:left;
+     background: url("../img/mustache1.jpg");
+
+
  }
+ 
