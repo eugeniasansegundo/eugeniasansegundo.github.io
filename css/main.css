@@ -127,7 +127,7 @@ body {
      border-top: 2px dashed #dedede;
      border-bottom: 2px dashed #dedede;
      box-sizing: border-box;
-     background: #fff url(theme/border-bottom.png?1474730211) left bottom repeat-x;
+     /*background: #fff url(theme/border-bottom.png?1474730211) left bottom repeat-x;*/
  }
  #header-wrap, #topnav-wrap, #banner-wrap, #main-wrap, #footer-wrap {
      width: 100%;
@@ -147,6 +147,6 @@ body {
 
  .paragraph{
      margin-top: 20px;
-     float: right;
+
  }
  
