@@ -142,11 +142,21 @@ body {
      display: list-item;
      font-size: 35px;
      float:left;
+     opacity: 0.55;
 
+ }
+
+ #home{
+     opacity: 1;
+     
  }
 
  .paragraph{
      margin-top: 20px;
 
+ }
+
+ #research-content{
+     display: none;
  }
  
