@@ -4,19 +4,40 @@
 
 $(document).ready(function(){
 
-    $('#home').click(function () {
+    /*$('#home').click(function () {
         $('#home-content').toggle();
     });
 
     $('#research').click(function () {
         $('#text-content').show();
-        /*$('#research-content').show();*/
-
-    });
+    });*/
 
     $('.wsite-menu-item-wrap').click(function(){
+        /*navbar menu highlight*/
+        $('.selected').fadeTo('slow', 0.5);
+        $('.selected').css('text-decoration', 'none');
         $('.selected').removeClass("selected");
         $(this).toggleClass("selected");
+
+        /*actual content being displayed*/
+        var option = $(this).attr('id');
+        var content_option = '#'+ option + "-content";
+        $('.active').toggle();
+        $('.active').removeClass("active");
+        $(content_option).addClass("active");
+        $(content_option).toggle();
+        console.log(content_option);
+        switch(option){
+            case 'home':
+                /*$(content_option).toggle();*/
+                break;
+            case 'research':
+
+                break;
+            default:
+                console.log("Unidentified topnav element: " + $(this).attr('id') );
+
+        }
 
 
     });
@@ -26,7 +47,7 @@ $(document).ready(function(){
             /*do nothing*/
         }
         else {
-            $(this).fadeTo('fast', 1);
+            $(this).fadeTo('slow', 1);
             $(this).css('text-decoration', 'underline overline');
         }
     }) ;
@@ -36,7 +57,7 @@ $(document).ready(function(){
             /*do nothing*/
         }
         else {
-            $(this).fadeTo('fast', 0.5);
+            $(this).fadeTo('slow', 0.5);
             $(this).css('text-decoration', 'none');
         }
     }) ;

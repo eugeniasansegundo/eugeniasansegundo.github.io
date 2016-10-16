@@ -154,13 +154,11 @@ body {
 
    }
 
-
- .paragraph{
+ .text-content{
      margin-top: 20px;
+     text-align:left;
+     display:none;
 
  }
 
- #research-content{
-     display: none;
- }
- 
+
