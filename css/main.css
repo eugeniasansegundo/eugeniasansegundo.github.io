@@ -185,3 +185,22 @@ body {
     display: inline;
     padding-right: 2px;
 }
+
+.intextlink{
+    font-weight: lighter;
+
+}
+
+#keywordsfake{
+     margin-top: 2%;
+     border-style: dotted;
+     border-color: #153782;
+     font-family: 'Inconsolata', monospace;
+ }
+
+#keywords{
+    margin-top: 2%;
+    border-style: dotted;
+    height: 50%;
+}
+

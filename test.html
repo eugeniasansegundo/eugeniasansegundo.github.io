@@ -14,9 +14,15 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> <!--to check-->
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+    <!--JQCloud-->
+    <link rel="stylesheet" href="js/jQCloud/dist/jqcloud.css"
 
 
 
@@ -66,46 +72,60 @@
             <div id="home-content" class="text-content active" style="display: block;">
 
                 <div class="container">
-
-                    <div class="col-sm-3" >
-                        <img src="img/perso1.jpg" width="100%" class="imgcol">
-                    </div>
-
-                    <div class="col-sm-9">
-                        <!--<h1 class="innertitle">Current activity</h1>-->
-                        <div class="paragraph">
-                        I am a Postdoctoral Research Associate at the <strong class="intext">Department of Language and Linguistic Science</strong> at the University of York.
-                        Since 2015 I work in the project <strong class="intext">Voice and Identity – Source, Filter, Biometric</strong> funded by the UK Arts and Humanities Research
-                        Council (AHRC), collaborating with <strong class="intext">Paul Foulkes, Peter French</strong> and other colleagues from the University of York and JP French Associates.
-                        The aim of the project is to compare the performance of different methods for forensic voice comparison – from linguistics and phonetics,
-                        acoustics, and automatic speaker recognition (ASR) – on the same set of recordings.
+                    <div class="row">
+                        <div class="col-sm-3" >
+                            <img src="img/perso1.jpg" width="100%" class="imgcol">
                         </div>
 
-                        <!--<h1 class="innertitle">Doctoral research</h1>-->
-
-
+                        <div class="col-sm-9">
+                            <!--<h1 class="innertitle">Current activity</h1>-->
+                            <div class="paragraph">
+                            I am a Postdoctoral Research Associate at the <a href="https://www.york.ac.uk/language/" class="intextlink">Department of Language and Linguistic Science</a> at the University of York.
+                            Since 2015 I work in the project <a href="https://sites.google.com/a/york.ac.uk/voice-and-identity/" class="intextlink">Voice and Identity – Source, Filter, Biometric</a> funded by the UK Arts and Humanities Research
+                            Council (AHRC), collaborating with <a href="" class="intextlink">Paul Foulkes, Peter French</a> and other colleagues from the University of York and JP French Associates.
+                            The aim of the project is to compare the performance of different methods for forensic voice comparison – from linguistics and phonetics,
+                            acoustics, and automatic speaker recognition (ASR) – on the same set of recordings.
+                            </div>
+                            <!--<h1 class="innertitle">Doctoral research</h1>-->
+                        </div>
                     </div>
 
+                    <div class="row">
+                        <div class="col-sm-3" id="keywords">
+                            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        <!--    <ul>
+                                <li>Forensic phonetics</li>
+                                <li>Voice quality</li>
+                                <li></li>
+                       twins, speaker similarity, vocal profile analysis vpa, formant trajectories, larynx , phonation, likelihood ratios
+
+                            </ul>-->
+                        </div>
+                        <div class="col-sm-9">
+
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
 
 
 
-    <div id="research-content" class="text-content">Research content
-
-                <div class="paragraph" style="border-top: 5px">
-                    In December 2014 I defended my PhD in the Phonetics Laboratory of the <strong class="intext">Spanish National Research Council</strong> (CSIC, Madrid),
-                    supervised by <strong class="intext">Joaquim Llisterri</strong> (Universitat Autonoma de Barcelona) and <strong class="intext">Juana Gil</strong> (CSIC). My doctoral research focused on the voice study of similar-sounding speakers:
+    <div id="research-content" class="text-content">
+        <div class="container">
+                <div class="paragraph">
+                    In December 2014 I defended my PhD in the Phonetics Laboratory of the <strong class="intextlink">Spanish National Research Council</strong> (CSIC, Madrid),
+                    supervised by <strong class="intextlink">Joaquim Llisterri</strong> (Universitat Autonoma de Barcelona) and <strong class="intextlink">Juana Gil</strong> (CSIC). My doctoral research focused on the voice study of similar-sounding speakers:
                     monozygotic and dizygotic twins, as well as non-twin siblings. I tackled this question from a threefold perspective: study of formant dynamics
                     in vocalic sequences, analysis of glottal/phonatory features, and use of an automatic speaker recognition system.
 
                 </div>
 
                 <div class="paragraph">
-                    As a PhD student, I did a <strong class="intext">research stay</strong> at the University of Marburg, supervised by <strong class="intext">Hermann Künzel</strong>, and attended several recognized <strong class="intext">summer schools</strong>: the International Summer School in Forensic
+                    As a PhD student, I did a <strong class="intextlink">research stay</strong> at the University of Marburg, supervised by <strong class="intextlink">Hermann Künzel</strong>, and attended several recognized <strong class="intext">summer schools</strong>: the International Summer School in Forensic
                     Linguistic Analysis (Aston University) and the Summer School in Voice Physiology and Biomechanics (Erlangen, Germany). During my doctoral studies I also completed an <strong class="intext">MSc in Quantitative Research Methodology and Statistics Techniques</strong> at the Polytechnic University of Madrid.
-
+        </div>
     </div>
     </div>
             <div id="teaching-content" class="text-content">teaching content</div>
@@ -124,6 +144,7 @@
 
 <!-- Jquery -->
 <script type='text/javascript' src="https://code.jquery.com/jquery-3.1.0.js"  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/jQCloud/dist/jqcloud.js"></script>
     <script type='text/javascript' src="js/my.js"></script>
 
     <!-- Google analytics-->
