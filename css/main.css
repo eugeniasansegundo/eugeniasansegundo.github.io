@@ -162,8 +162,26 @@ body {
      margin-top: 20px;
      text-align:left;
      display:none;
-     margin-left: 5%;
+     /*margin-left: 5%;*/
 
  }
 
 
+ .innertitle{
+     font-size: 28px;
+     margin-left: 2%;
+     font-weight: bolder;
+
+ }
+.paragraph{
+    font-size: 20px;
+    text-align: justify;
+    display: inline-block;
+}
+
+.imgcol{
+    margin-left: 2px;
+    resize: both;
+    display: inline;
+    padding-right: 2px;
+}
