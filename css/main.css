@@ -142,14 +142,18 @@ body {
      display: list-item;
      font-size: 35px;
      float:left;
-     opacity: 0.55;
+     opacity: 0.5;
+     text-decoration: none;
+
 
  }
 
- #home{
-     opacity: 1;
+ .selected{
+       opacity: 1;
+       text-decoration: underline overline;
 
- }
+   }
+
 
  .paragraph{
      margin-top: 20px;
