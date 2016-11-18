@@ -16,6 +16,7 @@ body {
     height: 0px;
     text-shadow: 0.25px 0.25px 0.25px #000000;
 }
+
 .nav-element {
     display: inline-flex;
     bottom: 0;
@@ -133,6 +134,15 @@ body {
      box-sizing: border-box;
      /*background: #fff url(theme/border-bottom.png?1474730211) left bottom repeat-x;*/
  }
+
+ #topnav-container{
+
+ }
+
+ #address-bar{
+     font-family: 'Rubik', sans-serif;
+ }
+
  #header-wrap, #topnav-wrap, #banner-wrap, #main-wrap, #footer-wrap {
      width: 100%;
      min-width: 960px;
@@ -143,11 +153,11 @@ body {
  }
 
  .wsite-menu-item-wrap {
-     display: list-item;
-     font-size: 35px;
+     font-size: 1.9vw;
      float:left;
      opacity: 0.5;
      text-decoration: none;
+     padding: 0px;
 
 
  }
