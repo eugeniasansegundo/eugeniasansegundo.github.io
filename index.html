@@ -43,6 +43,15 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <!--anti spammer-->
+    <script type="text/javascript">
+        function gen_mail_to_link(lhs,rhs,subject) {
+            document.write("<a class=\"mymail\" href=\"mailto");
+            document.write(":" + lhs + "@");
+            document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/a>");
+        }
+    </script>
+
 </head>
 <body>
 
@@ -160,6 +169,7 @@
 
 
          </div>
+        <br>
         <div class="row">
             <div class="col-sm-4">
                 <img src="img/perso2.jpg" width="100%" class="imgcol">
@@ -201,14 +211,7 @@
 
 </script>
 
-<!--anti spammer-->
-<script type="text/javascript">
-    function gen_mail_to_link(lhs,rhs,subject) {
-        document.write("<a href=\"mailto");
-        document.write(":" + lhs + "@");
-        document.write(rhs + "?subject=" + subject + "\">" + lhs + "@" + rhs + "<\/a>");
-    }
-</script>
+
 
 </body>
 </html>
