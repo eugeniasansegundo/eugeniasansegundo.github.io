@@ -222,14 +222,23 @@ body {
     padding-left: 1.5em;
     text-indent:-1.5em;
 }
+
+.reference:hover{
+    background-color: #00ddff;
+}
+
+.journal-name{
+    font-style: italic;
+    display: inline;
+}
 #auth-name{
     font-weight: bold;
     display: inline;
 }
-
 .imgcol{
     margin-left: 2px;
     resize: both;
+
     display: inline;
     padding-right: 2px;
 }

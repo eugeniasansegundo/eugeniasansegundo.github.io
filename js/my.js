@@ -52,6 +52,7 @@ $(document).ready(function(){
         }
     }) ;
 
+
     var words = [
         {text: "Lorem", weight: 13},
         {text: "Ipsum", weight: 10.5},
