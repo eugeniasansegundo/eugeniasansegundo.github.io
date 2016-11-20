@@ -12,6 +12,11 @@ $(document).ready(function(){
         $('#text-content').show();
     });*/
 
+    $('.publis-title').click(function(){
+        $(this).siblings().toggle('slow');
+
+    });
+
     $('.wsite-menu-item-wrap').click(function(){
         /*navbar menu highlight*/
         $('.selected').fadeTo('slow', 0.5);
