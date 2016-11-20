@@ -182,8 +182,14 @@ body {
      margin-left: 0%;
      font-weight: bolder;
 
-
  }
+
+.innertitle.publis-title{
+    font-size: 24px;
+    margin-left: 0%;
+    font-weight: bold;
+
+}
 .paragraph{
     font-size: 20px;
     text-align: justify;
