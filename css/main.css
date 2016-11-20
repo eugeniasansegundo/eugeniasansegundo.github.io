@@ -179,14 +179,40 @@ body {
 
  .innertitle{
      font-size: 28px;
-     margin-left: 2%;
+     margin-left: 0%;
      font-weight: bolder;
+
 
  }
 .paragraph{
     font-size: 20px;
     text-align: justify;
     display: inline-block;
+}
+
+.project-title{
+    font-weight: bold;
+    font-style: italic;
+    display: block;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.project-inv{
+    display: block;
+    text-decoration: underline;
+}
+.project-funder{
+    display: inline;
+    text-decoration: underline;
+}
+
+.project-text{
+    font-size: 20px;
+}
+
+.researchlist{
+    font-size: 18px;
 }
 
 .imgcol{
