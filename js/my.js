@@ -27,17 +27,7 @@ $(document).ready(function(){
         $(content_option).addClass("active");
         $(content_option).toggle();
         console.log(content_option);
-        switch(option){
-            case 'home':
-                /*$(content_option).toggle();*/
-                break;
-            case 'research':
 
-                break;
-            default:
-                console.log("Unidentified topnav element: " + $(this).attr('id') );
-
-        }
 
 
     });

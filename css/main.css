@@ -215,6 +215,18 @@ body {
     font-size: 18px;
 }
 
+.reference{
+    font-size: 18px;
+    text-align: justify;
+    display: block;
+    padding-left: 1.5em;
+    text-indent:-1.5em;
+}
+#auth-name{
+    font-weight: bold;
+    display: inline;
+}
+
 .imgcol{
     margin-left: 2px;
     resize: both;
