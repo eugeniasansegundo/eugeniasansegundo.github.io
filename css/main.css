@@ -281,7 +281,11 @@ body {
 }
 
 .download-link{
-
+ /*text-decoration: underline overline;*/
+    border-width: 1px;
+    border-style: groove;
+    border-color: #153782;
+    font-family: 'Inconsolata', monospace;
 }
 
 #keywordsfake{
