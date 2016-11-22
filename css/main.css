@@ -249,6 +249,32 @@ body {
     padding-right: 2px;
 }
 
+.teach-date{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.teach-content{
+    text-align: left;
+    font-size: 18px;
+    display:inline;
+}
+
+.teach-role{
+    display: block;
+    font-weight: bold;
+}
+
+.teach-fact{
+    text-decoration: underline;
+    display: inline;
+}
+
+.teach-row:hover{
+    background-color: #99ccee;
+}
+
 .intextlink{
     font-weight: lighter;
 
