@@ -17,6 +17,13 @@ $(document).ready(function(){
 
     });
 
+    $('.expand-button').click(function(){
+            var src = ($(this).attr('src') === 'img/collapse-button.png')
+            ? 'img/expand-button.png'
+            : 'img/collapse-button.png';
+        $(this).attr('src', src);
+    });
+
     $('.wsite-menu-item-wrap').click(function(){
         /*navbar menu highlight*/
         $('.selected').fadeTo('slow', 0.5);
