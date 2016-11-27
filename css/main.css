@@ -275,6 +275,63 @@ body {
     background-color: #99ccee;
 }
 
+
+.edu-date{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.edu-content{
+    text-align: left;
+    font-size: 18px;
+    display:inline;
+}
+
+.edu-title{
+    display: block;
+    font-weight: bold;
+}
+
+.edu-fact{
+    text-decoration: underline;
+    display: inline;
+}
+
+.edu-row:hover{
+    background-color: #99ccee;
+}
+
+
+.cv-date{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cv-content{
+    text-align: left;
+    font-size: 18px;
+    display:inline;
+}
+
+.cv-title{
+    display: inline;
+    font-weight: bold;
+}
+
+.cv-fact{
+    text-decoration: underline;
+    display: inline;
+}
+
+.cv-row:hover{
+    background-color: #99ccee;
+}
+
+
+
+
 .intextlink{
     font-weight: lighter;
 
