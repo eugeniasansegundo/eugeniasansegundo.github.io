@@ -55,6 +55,15 @@
         }
     </script>
 
+    <!--anti spammer-->
+    <script type="text/javascript">
+        function download_request(lhs,rhs,subject) {
+            document.write("<a class=\"download-link\" href=\"mailto");
+            document.write(":" + lhs + "@");
+            document.write(rhs + "?subject=" + subject + "\"> REQUEST DOWNLOAD <\/a>");
+        }
+    </script>
+
 
 
 
@@ -238,16 +247,36 @@ My main <font style="font-weight: bold">research interests</font>  lie at the in
             </div>
 </div>
 
+    <br>
 
 
 </div>
     <div id="publis-content" class="text-content">
+
+
+        <div class="container">
+
+            <div class="innertitle publis-title"><img src="img/collapse-button.png" class="expand-button" height="30px"/>DOCTORAL DISSERTATION</div><br>
+
+            <div class="reference"><div id="auth-name">SAN SEGUNDO, E.</div> (2014). <div class="journal-name"> Forensic speaker comparison of Spanish twins and non-twin siblings: A phonetic-acoustic analysis of formant trajectories in vocalic sequences, glottal source parameters and cepstral characteristics</div>, Alicante : Biblioteca Virtual Miguel de Cervantes, 2017. <a class="download-link" href="http://www.cervantesvirtual.com/nd/ark:/59851/bmcm9293" target="_blank">LINK</a> </div>
+
+        </div >
+
+
+        <br>
+
         <div class="container">
 
             <div class="innertitle publis-title"><img src="img/collapse-button.png" class="expand-button" height="30px"/>DATASETS</div><br>
 
-            <div class="reference"><div id="auth-name">SAN SEGUNDO, E.</div> (2017). Twin Corpus (reading task). http://doi.org/10.5281/zenodo.345336  <div class="journal-name">Zenodo. </div> <a class="download-link" href="https://zenodo.org/record/345336" target="_blank">LINK</a>  </div>
-            </div >
+            <div class="reference"><div id="auth-name">SAN SEGUNDO, E.</div> (2017). Twin Corpus (reading task).
+            <script type="text/javascript">
+                download_request('eugenia.sansegundo','york.ac.uk','DATASET DOWNLOAD REQUEST');
+            </script>
+            </div>
+        </div >
+
+        <br>
             <div class="container">
 
             <div class="innertitle publis-title"><img src="img/collapse-button.png" class="expand-button" height="30px"/>PUBLICATIONS IN PEER-REVIEWED JOURNALS</div><br>
