@@ -1,0 +1,12 @@
+.refresh{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.left-column{
+    text-align: right;
+}
+
+.right-column{
+    text-align: left;
+}

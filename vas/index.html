@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN">
+<!-- saved from url=(0040)http://www.vasgenerator.net/your_VAS.php -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Visual Analogue Scale</title>
+
+    <style type="text/css">
+
+        body{
+            background-color: honeydew;
+        }
+    </style>
+
+    <!-- Include meta tag to ensure proper rendering and touch zooming -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Include jQuery Mobile stylesheets -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- Include the jQuery library -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- Include the jQuery Mobile library -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+
+</head>
+
+<body>
+<script type="text/javascript" src="./js/wz_dragdrop.js"></script>
+<!-- wz_dragdrop.js (Dragdrop Bibliothek) is (c) Walter Zorn - see javascript source code for details -->
+<script type="text/javascript" src="./js/ratingscales.js"></script>
+<!-- ratingscales.js (Ratingscales Addon) is (c) Timo Gnambs - see javascript source code for details -->
+
+
+<form name="vas_data" action="" method="post" onsubmit="processForm(); return false;">
+
+<h1 align="center">Labial </h1>
+
+<script type="text/javascript">
+    scales.scale('lip_rounding', 'slide', 100, ['pics/line00.gif', 500, 20], ['pics/30.gif',30,30], ['Lip Rounding', 'Lip Spreading']);							</script>
+
+    <input type="submit" value="continue">
+
+    </form>
+
+
+    <form method="post" action="/action_page_post.php">
+        <label for="points">Labial:</label>
+        Lip Rounding
+        <input type="range" name="points" id="points" value="50" min="0" max="100" data-popup-enabled="true" data-highlight="true">Lip Spreading
+    </form>
+
+
+
+
+
+
+		<script type="text/javascript">scales.init('value');</script>
+
+
+</body>
+</html>
