@@ -24,32 +24,235 @@
     <!-- Include the jQuery Mobile library -->
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
+    <link rel="stylesheet" href="vas.css">
+
 
 </head>
 
 <body>
-<script type="text/javascript" src="./js/wz_dragdrop.js"></script>
-<!-- wz_dragdrop.js (Dragdrop Bibliothek) is (c) Walter Zorn - see javascript source code for details -->
-<script type="text/javascript" src="./js/ratingscales.js"></script>
-<!-- ratingscales.js (Ratingscales Addon) is (c) Timo Gnambs - see javascript source code for details -->
-
-
-<form name="vas_data" action="" method="post" onsubmit="processForm(); return false;">
-
-<h1 align="center">Labial </h1>
-
-<script type="text/javascript">
-    scales.scale('lip_rounding', 'slide', 100, ['pics/line00.gif', 500, 20], ['pics/30.gif',30,30], ['Lip Rounding', 'Lip Spreading']);							</script>
-
-    <input type="submit" value="continue">
-
-    </form>
-
 
     <form method="post" action="/action_page_post.php">
-        <label for="points">Labial:</label>
-        Lip Rounding
-        <input type="range" name="points" id="points" value="50" min="0" max="100" data-popup-enabled="true" data-highlight="true">Lip Spreading
+
+        <table >
+
+
+            <tr>
+                <td colspan="4" style="text-align: center">Voice Type</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Whisper/Breathy
+                </td>
+                <td width="75%">
+                    <input type="range" name="voice_type" id="voice_type" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Creaky/Harsh
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_voice_type" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td colspan="4" style="text-align: center">Laryngeal Tension</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Lax
+                </td>
+                <td width="75%">
+                    <input type="range" name="laryngeal_tension" id="laryngeal_tension" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Tense
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_laryngeal_tension" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="4" style="text-align: center">Vocal Tract Tension</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Lax
+                </td>
+                <td width="75%">
+                    <input type="range" name="vocal_tract_tension" id="vocal_tract_tension" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Tense
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_vocal_tract_tension" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4" style="text-align: center">Laryngeal height</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Lowered
+                </td>
+                <td width="75%">
+                    <input type="range" name="laryngeal" id="laryngeal" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Raised
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_laryngeal" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4" style="text-align: center">Pharyngeal</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Constricted
+                </td>
+                <td width="75%">
+                    <input type="range" name="pharyngeal" id="pharyngeal" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Expanded
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_pharyngeal" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="4" style="text-align: center">Velopharyngeal</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Denasal
+                </td>
+                <td width="75%">
+                    <input type="range" name="velo" id="velo" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Nasal
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_velo" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4" style="text-align: center">Dorsal</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Backed & Lowered
+                </td>
+                <td width="75%">
+                    <input type="range" name="dorsal" id="dorsal" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Fronted & Raised
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_dorsal" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4" style="text-align: center">Apical</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Retracted
+                </td>
+                <td width="75%">
+                    <input type="range" name="apical" id="apical" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Advanced
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_apical" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4" style="text-align: center">Mandibular</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Close
+                </td>
+                <td width="75%">
+                    <input type="range" name="mandibular" id="mandibular" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Open
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_mandibular" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4" style="text-align: center">Labial</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Lip Rounding
+                </td>
+                <td width="75%">
+                    <input type="range" name="labial" id="labial" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Lip Spreading
+                </td>
+                    <td width="5%">
+                        <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_labial" class="refresh_button">
+                            <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                        </a>
+                    </td>
+            </tr>
+
+
+
+        </table>
     </form>
 
 
@@ -57,8 +260,10 @@
 
 
 
-		<script type="text/javascript">scales.init('value');</script>
 
+
+
+    <script type='text/javascript' src="js/vas.js"></script>
 
 </body>
 </html>
