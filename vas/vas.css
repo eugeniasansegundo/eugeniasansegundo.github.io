@@ -10,3 +10,35 @@
 .right-column{
     text-align: left;
 }
+
+body {
+    font-family: 'Josefin Sans',  Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #666666;
+    margin: 0;
+    border-top: 3px solid #258225;
+    /*background: #643232;*/
+}
+
+.feature{
+
+    font-weight: bolder;
+    font-size: 18px;
+
+}
+
+#table-header{
+
+    font-weight: bolder;
+    font-size: 40px;
+
+}
+
+#player{
+    border-style: dashed;
+
+}
+
+.audio{
+    width: 1000px;
+}

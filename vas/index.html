@@ -26,26 +26,112 @@
 
     <link rel="stylesheet" href="vas.css">
 
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+
 
 </head>
 
 <body>
 
-    <audio controls>
 
-        <source src="aud/1.wav" >
 
-        Your browser does not support the audio element. Please use Chrome or Firefox.
 
-    </audio>
 
-    <form method="post" action="/action_page_post.php">
+<br>
 
-        <table >
+    <form  action="https://formspree.io/eugeniasansegundo@gmail.com"
+          method="POST" target="_blank" id="myForm">
+
+        <table>
+
+            <tr>
+                <th colspan="1" style="text-align: right">
+                    <a href="https://eugeniasansegundo.github.io">EugeniaSanSegundo.github.io</a>
+                    <br>
+                    <br>
+                    <br>
+                </th>
+
+
+                <th colspan="3" id="table-header" style="text-align: left">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+                    Visual Analogue Scale
+                    <br>
+                    <br>
+                    <br>
+
+                </th>
+
+            </tr>
+
+            <tr>
+
+                <td colspan="1" style="text-align: center">
+
+                    <input type="text" value="Enter your name..." id="username" name="username"
+                           onblur="if (this.value == '') {this.value = 'Enter your name...';}"
+                           onfocus="if (this.value == 'Enter your name...') {this.value = '';}"
+                    />
+
+                </td>
+
+                <td colspan="1" style="text-align: center">
+                    <audio controls id="player">
+
+                        <source src="aud/1.wav"  id="wavsource" >
+
+                        Your browser does not support the audio element. Please use Chrome or Firefox.
+
+                    </audio>
+
+
+
+                </td>
+
+
+                <td colspan="1" style="text-align: center">
+
+                    Now playing: <input type="text" value="1.wav" id="playing" name="playing"/>
+
+                </td>
+
+                <td colspan="1" >
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="next_wav" class="next_button">
+                        NEXT
+                    </a>
+
+
+                </td>
+
+
+
+
+
+
+
+
+            </tr>
 
 
             <tr>
-                <td colspan="4" style="text-align: center">Voice Type</td>
+                <td colspan="4">
+                    &nbsp;
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    &nbsp;
+                </td>
+            </tr>
+
+
+            <tr>
+                <td colspan="4" style="text-align: center" class="feature">Voice Type</td>
 
             </tr>
             <tr>
@@ -53,7 +139,7 @@
                     Whisper/Breathy
                 </td>
                 <td width="75%">
-                    <input type="range" name="voice_type" id="voice_type" value="50" min="0" max="100" >
+                    <input type="range" class="slider" name="voice_type" id="voice_type" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
                     Creaky/Harsh
@@ -68,7 +154,7 @@
 
 
             <tr>
-                <td colspan="4" style="text-align: center">Laryngeal Tension</td>
+                <td colspan="4" style="text-align: center" class="feature">Laryngeal Tension</td>
 
             </tr>
             <tr>
@@ -76,7 +162,7 @@
                     Lax
                 </td>
                 <td width="75%">
-                    <input type="range" name="laryngeal_tension" id="laryngeal_tension" value="50" min="0" max="100" >
+                    <input type="range" class="slider" name="laryngeal_tension" id="laryngeal_tension" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
                     Tense
@@ -90,7 +176,7 @@
 
 
             <tr>
-                <td colspan="4" style="text-align: center">Vocal Tract Tension</td>
+                <td colspan="4" style="text-align: center" class="feature">Vocal Tract Tension</td>
 
             </tr>
             <tr>
@@ -98,7 +184,7 @@
                     Lax
                 </td>
                 <td width="75%">
-                    <input type="range" name="vocal_tract_tension" id="vocal_tract_tension" value="50" min="0" max="100" >
+                    <input type="range" class="slider" name="vocal_tract_tension" id="vocal_tract_tension" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
                     Tense
@@ -111,7 +197,7 @@
             </tr>
 
             <tr>
-                <td colspan="4" style="text-align: center">Laryngeal height</td>
+                <td colspan="4" style="text-align: center" class="feature">Laryngeal height</td>
 
             </tr>
             <tr>
@@ -119,7 +205,7 @@
                     Lowered
                 </td>
                 <td width="75%">
-                    <input type="range" name="laryngeal" id="laryngeal" value="50" min="0" max="100" >
+                    <input type="range" class="slider" name="laryngeal" id="laryngeal" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
                     Raised
@@ -132,7 +218,7 @@
             </tr>
 
             <tr>
-                <td colspan="4" style="text-align: center">Pharyngeal</td>
+                <td colspan="4" style="text-align: center" class="feature">Pharyngeal</td>
 
             </tr>
             <tr>
@@ -140,7 +226,7 @@
                     Constricted
                 </td>
                 <td width="75%">
-                    <input type="range" name="pharyngeal" id="pharyngeal" value="50" min="0" max="100" >
+                    <input type="range" class="slider" name="pharyngeal" id="pharyngeal" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
                     Expanded
@@ -154,7 +240,7 @@
 
 
             <tr>
-                <td colspan="4" style="text-align: center">Velopharyngeal</td>
+                <td colspan="4" style="text-align: center" class="feature">Velopharyngeal</td>
 
             </tr>
             <tr>
@@ -162,7 +248,7 @@
                     Denasal
                 </td>
                 <td width="75%">
-                    <input type="range" name="velo" id="velo" value="50" min="0" max="100" >
+                    <input type="range" class="slider" name="velo" id="velo" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
                     Nasal
@@ -175,7 +261,7 @@
             </tr>
 
             <tr>
-                <td colspan="4" style="text-align: center">Dorsal</td>
+                <td colspan="4" style="text-align: center" class="feature">Dorsal</td>
 
             </tr>
             <tr>
@@ -183,7 +269,7 @@
                     Backed & Lowered
                 </td>
                 <td width="75%">
-                    <input type="range" name="dorsal" id="dorsal" value="50" min="0" max="100" >
+                    <input type="range" class="slider" name="dorsal" id="dorsal" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
                     Fronted & Raised
@@ -196,7 +282,7 @@
             </tr>
 
             <tr>
-                <td colspan="4" style="text-align: center">Apical</td>
+                <td colspan="4" style="text-align: center" class="feature">Apical</td>
 
             </tr>
             <tr>
@@ -204,7 +290,7 @@
                     Retracted
                 </td>
                 <td width="75%">
-                    <input type="range" name="apical" id="apical" value="50" min="0" max="100" >
+                    <input type="range" class="slider" name="apical" id="apical" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
                     Advanced
@@ -217,7 +303,7 @@
             </tr>
 
             <tr>
-                <td colspan="4" style="text-align: center">Mandibular</td>
+                <td colspan="4" style="text-align: center" class="feature">Mandibular</td>
 
             </tr>
             <tr>
@@ -225,7 +311,7 @@
                     Close
                 </td>
                 <td width="75%">
-                    <input type="range" name="mandibular" id="mandibular" value="50" min="0" max="100" >
+                    <input type="range" class="slider" name="mandibular" id="mandibular" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
                     Open
@@ -238,7 +324,7 @@
             </tr>
 
             <tr>
-                <td colspan="4" style="text-align: center">Labial</td>
+                <td colspan="4" style="text-align: center" class="feature">Labial</td>
 
             </tr>
             <tr>
@@ -246,7 +332,7 @@
                     Lip Rounding
                 </td>
                 <td width="75%">
-                    <input type="range" name="labial" id="labial" value="50" min="0" max="100" >
+                    <input type="range" class="slider" name="labial" id="labial" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
                     Lip Spreading
@@ -261,6 +347,8 @@
 
 
         </table>
+
+        <input type="submit" value="Send">
     </form>
 
 
