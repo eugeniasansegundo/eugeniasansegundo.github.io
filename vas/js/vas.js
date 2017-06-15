@@ -21,6 +21,7 @@ $(document).ready(function(){
 
     });
 
+
     $('.next_button').click(function(){
 
 
@@ -73,6 +74,7 @@ $(document).ready(function(){
 
 
     });
+
 
 
 
