@@ -24,7 +24,11 @@ body {
 
     font-weight: bolder;
     font-size: 18px;
+    padding-left: 3em;
+}
 
+#playercell{
+    padding-left: 2em;
 }
 
 #table-header{
