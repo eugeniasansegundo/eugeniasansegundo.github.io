@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LM Mazaira on Eugenia San Segundo</title>
+    <link>/authors/lm-mazaira/</link>
+    <description>Recent content in LM Mazaira on Eugenia San Segundo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Sep 2014 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/authors/lm-mazaira/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dysphonic voice detection for speakers’ biometry</title>
+      <link>/talk/gomez-vilda-dysphonic-2014/</link>
+      <pubDate>Wed, 03 Sep 2014 00:00:00 +0200</pubDate>
+      
+      <guid>/talk/gomez-vilda-dysphonic-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dysphonic voice detection for speakers’ biometry</title>
+      <link>/landing/gomez-vilda-dysphonic-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/landing/gomez-vilda-dysphonic-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Dysphonic Voice to Characterize Speakers’ Biometry</title>
+      <link>/landing/gomez-vilda-using-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/landing/gomez-vilda-using-2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using Dysphonic Voice to Characterize Speakers’ Biometry</title>
+      <link>/publication/gomez-vilda-using-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/gomez-vilda-using-2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

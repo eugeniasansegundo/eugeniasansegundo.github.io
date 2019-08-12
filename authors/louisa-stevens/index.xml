@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Louisa Stevens on Eugenia San Segundo</title>
+    <link>/authors/louisa-stevens/</link>
+    <description>Recent content in Louisa Stevens on Eugenia San Segundo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Aug 2015 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/authors/louisa-stevens/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The vocal tract as a biometric: output measures, interrelationships, and efficacy</title>
+      <link>/talk/french-vocal-2015/</link>
+      <pubDate>Fri, 14 Aug 2015 00:00:00 +0200</pubDate>
+      
+      <guid>/talk/french-vocal-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The vocal tract as a biometric: output measures, interrelationships, and efficacy</title>
+      <link>/publication/french-vocal-2015/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/french-vocal-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The vocal tract as a biometric: output measures, interrelationships, and efficacy</title>
+      <link>/landing/french-vocal-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>/landing/french-vocal-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

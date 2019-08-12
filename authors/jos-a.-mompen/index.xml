@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jos� A. Mompe�n on Academic</title>
+    <link>/authors/jos-a.-mompen/</link>
+    <description>Recent content in Jos� A. Mompe�n on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/authors/jos-a.-mompen/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Simplified Vocal Profile Analysis Protocol for the Assessment of Voice Quality and Speaker Similarity</title>
+      <link>/publication/san-segundo-simplified-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/san-segundo-simplified-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

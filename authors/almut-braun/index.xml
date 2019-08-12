@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Almut Braun on Eugenia San Segundo</title>
+    <link>/authors/almut-braun/</link>
+    <description>Recent content in Almut Braun on Eugenia San Segundo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jul 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/authors/almut-braun/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Speaker-similarity perception of Spanish twins and non-twins by native speakers of Spanish, German and English</title>
+      <link>/talk/san-segundo-speaker-2017/</link>
+      <pubDate>Tue, 11 Jul 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/talk/san-segundo-speaker-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

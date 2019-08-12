@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M.J. Albalá on Academic</title>
+    <link>/authors/m.j.-albal%C3%A1/</link>
+    <description>Recent content in M.J. Albalá on Academic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/authors/m.j.-albal%C3%A1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>El proyecto CIVIL: Cualidad Individual de la Voz en la Identificación de Locutores</title>
+      <link>/publication/alves-cualidad-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/alves-cualidad-2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

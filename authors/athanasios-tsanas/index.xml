@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Athanasios Tsanas on Eugenia San Segundo</title>
+    <link>/authors/athanasios-tsanas/</link>
+    <description>Recent content in Athanasios Tsanas on Eugenia San Segundo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Jul 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="/authors/athanasios-tsanas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Exploring pause fillers in conversational speech for forensic phonetics: Findings in a spanish cohort including twins</title>
+      <link>/talk/tsanas-exploring-2017/</link>
+      <pubDate>Tue, 11 Jul 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/talk/tsanas-exploring-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring pause fillers in conversational speech for forensic phonetics: Findings in a spanish cohort including twins</title>
+      <link>/publication/tsanas-exploring-2017/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0200</pubDate>
+      
+      <guid>/publication/tsanas-exploring-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Euclidean distances as measures of speaker dissimilarity including identical twin pairs: a forensic investigation using source and filter voice characteristics</title>
+      <link>/landing/san-segundo-euclidean-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/landing/san-segundo-euclidean-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Euclidean distances as measures of speaker dissimilarity including identical twin pairs: a forensic investigation using source and filter voice characteristics</title>
+      <link>/publication/san-segundo-euclidean-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/san-segundo-euclidean-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
