@@ -6,7 +6,7 @@
     <description>Recent content in Authors on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jul 2019 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>Eugenia San Segundo</title>
       <link>/authors/eugenia-san-segundo/</link>
-      <pubDate>Wed, 01 May 2019 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0200</pubDate>
       
       <guid>/authors/eugenia-san-segundo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jorge Gurlekian</title>
+      <link>/authors/jorge-gurlekian/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/authors/jorge-gurlekian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pedro Univaso</title>
+      <link>/authors/pedro-univaso/</link>
+      <pubDate>Wed, 31 Jul 2019 00:00:00 +0200</pubDate>
+      
+      <guid>/authors/pedro-univaso/</guid>
       <description></description>
     </item>
     

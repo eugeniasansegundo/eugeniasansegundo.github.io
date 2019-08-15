@@ -4,7 +4,7 @@
     <url>
     
       <loc>/publication_types/2/</loc>
-      <lastmod>2019-05-01T00:00:00+02:00</lastmod>
+      <lastmod>2019-07-31T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -13,7 +13,7 @@
     <url>
     
       <loc>/authors/</loc>
-      <lastmod>2019-05-01T00:00:00+02:00</lastmod>
+      <lastmod>2019-07-31T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -22,7 +22,7 @@
     <url>
     
       <loc>/authors/eugenia-san-segundo/</loc>
-      <lastmod>2019-05-01T00:00:00+02:00</lastmod>
+      <lastmod>2019-07-31T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -31,8 +31,43 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2019-05-01T00:00:00+02:00</lastmod>
+      <lastmod>2019-07-31T00:00:00+02:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/jorge-gurlekian/</loc>
+      <lastmod>2019-07-31T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/authors/pedro-univaso/</loc>
+      <lastmod>2019-07-31T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication_types/</loc>
+      <lastmod>2019-07-31T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/publication/san-segundo-sistema-2019/</loc>
+      <lastmod>2019-07-31T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -56,15 +91,6 @@
     <url>
     
       <loc>/authors/junjie-yang/</loc>
-      <lastmod>2019-05-01T00:00:00+02:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
       <lastmod>2019-05-01T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
@@ -192,8 +218,8 @@
     
     <url>
     
-      <loc>/privacy/</loc>
-      <lastmod>2018-06-28T00:00:00+02:00</lastmod>
+      <loc>/publication/san-segundo-use-2018/</loc>
+      <lastmod>2018-07-01T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -224,8 +250,8 @@
     
     <url>
     
-      <loc>/publication/san-segundo-use-2018/</loc>
-      <lastmod>2018-06-01T00:00:00+02:00</lastmod>
+      <loc>/talk/san-segundo-introduction-2018/</loc>
+      <lastmod>2018-05-09T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -334,6 +360,22 @@
     
     <url>
     
+      <loc>/talk/san-segundo-forensic-2017/</loc>
+      <lastmod>2017-10-06T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/kavanagh-voice-2017/</loc>
+      <lastmod>2017-10-02T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/talk/san-segundo-cluster-2018/</loc>
       <lastmod>2017-09-28T00:00:00+02:00</lastmod>
     </url>
@@ -344,6 +386,14 @@
     
       <loc>/publication/hughes-mapping-2017/</loc>
       <lastmod>2017-08-01T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/foulkes-voice-2017/</loc>
+      <lastmod>2017-07-28T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -411,6 +461,22 @@
     
       <loc>/publication/tsanas-exploring-2017/</loc>
       <lastmod>2017-07-01T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/san-segundo-challenges-2017/</loc>
+      <lastmod>2017-06-05T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/san-segundo-perceptual-2017/</loc>
+      <lastmod>2017-02-23T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -544,6 +610,46 @@
       <loc>/tags/</loc>
       <lastmod>2018-01-13T00:00:00+01:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/san-segundo-simplified-2016/</loc>
+      <lastmod>2016-04-05T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/san-segundo-fonetica-2016/</loc>
+      <lastmod>2016-04-04T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/san-segundo-forensic-2013/</loc>
+      <lastmod>2016-04-04T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/san-segundo-forensic-2015/</loc>
+      <lastmod>2016-04-04T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/san-segundo-measurement-2016/</loc>
+      <lastmod>2016-04-04T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -1027,6 +1133,14 @@
     
       <loc>/publication/san-segundo-matching-2013/</loc>
       <lastmod>2013-09-01T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/san-segundo-international-2017/</loc>
+      <lastmod>2013-07-11T00:00:00+02:00</lastmod>
     </url>
     
   
