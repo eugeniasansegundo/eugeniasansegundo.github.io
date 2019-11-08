@@ -21,7 +21,18 @@ $(document).ready(function(){
 
     });
 
+    $(".export").on('click', function(event) {
+        // CSV
+        $form = document.getElementById('myForm')
+        exportTableToCSV.call(this, $form, 'export.csv');
+  
+        
+        // IF CSV, don't do event.preventDefault() or return false
+        // We actually need this to be a typical hyperlink
+      });
 
+    
+    
     $('.next_button').click(function(){
 
 
@@ -79,3 +90,58 @@ $(document).ready(function(){
 
 
 });
+
+function exportTableToCSV($form, filename) {
+
+    
+    var str="";
+    var namestr="";
+    var valuestr="";
+    var flds = $form.elements;
+    var csvFld=null;
+        for (fx=0; fx < flds.length; fx++) {
+            var fld = flds[fx];
+            if (fld.type == "button") { continue; }
+            var fldName  = fld.getAttribute("name");
+            var fldValue = fld.value;
+            if ((fld.type=="radio") || (fld.type == "checkbox")) {
+                if (!fld.checked) { continue; }
+            }
+            if (fld.type=="select") {
+                if (!fld.selected) { continue;}
+            }
+            if (fld.type=="text") {
+                csvFld = fld;
+                continue;
+            }
+            //str += fld.getAttribute("name") + ":" + fld.value + ",";
+            if (fx == flds.length-1){
+                namestr += fld.getAttribute("name");
+                valuestr += fld.value;
+
+            }
+            else{
+                namestr += fld.getAttribute("name") + ",";
+                valuestr += fld.value + ",";
+
+            }
+            
+        }
+        //str = str.replace(/,$/,"");
+        str = namestr+"\r\n"+valuestr;
+        console.log(str);
+        if (csvFld != null) {
+            //csvFld.value = str;
+            csvData  = 'data:application/csv;charset=utf-8,' + str;
+
+            $(this)
+      .attr({
+        'download': filename,
+        'href': csvData,
+        'target': '_blank'
+      });
+
+        }
+
+
+  }

@@ -6,7 +6,7 @@
     <description>Recent content in Authors on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 31 Jul 2019 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Eugenia San Segundo</title>
       <link>/authors/eugenia-san-segundo/</link>
-      <pubDate>Wed, 31 Jul 2019 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0100</pubDate>
       
       <guid>/authors/eugenia-san-segundo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radek Skarnitzl</title>
+      <link>/authors/radek-skarnitzl/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/radek-skarnitzl/</guid>
       <description></description>
     </item>
     
