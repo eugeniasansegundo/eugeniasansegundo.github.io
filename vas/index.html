@@ -1,0 +1,445 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Visual Analogue Scale</title>
+
+    <style type="text/css">
+
+        body{
+            background-color: honeydew;
+        }
+    </style>
+
+    <!-- Include meta tag to ensure desktop rendering-->
+    <meta name="viewport" content="width=1024">
+
+    <!-- Include jQuery Mobile stylesheets -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- Include the jQuery library -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- Include the jQuery Mobile library -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <link rel="stylesheet" href="vas.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+
+
+
+
+
+<br>
+
+    <form id="myForm">
+
+          
+        <table>
+
+            <tr>
+                <th colspan="1" style="text-align: right">
+                    <a href="https://eugeniasansegundo.github.io" target="_blank">EugeniaSanSegundo.github.io</a>
+                    <br>
+                    <br>
+                    Cite as: <a href="https://eugeniasansegundo.github.io/publication/san-segundo-computerbased-2019/" target="_blank" >San Segundo & Skarnitzl (2019)</a>
+                    <br>
+                </th>
+
+
+                <th colspan="1" id="table-header" style="text-align: left">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+                    Visual Analogue Scale<br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;
+                    Simplified Vocal Profile Analysis 
+                    
+                    <br>
+                    <br>
+                    <br>
+
+                </th>
+
+                <th colspan="1" style="text-align: right">
+                    Version 1.0<br> (Oct 2019)<br>
+                    <br>
+                    <br>
+                    <br>
+                </th>
+
+
+
+            </tr>
+
+            <tr>
+                    <td colspan=1>
+                        &nbsp;
+                    </td>
+                    <td colspan="1">
+                        Choose your own files here (they will always remain in your computer; they are not uploaded anywhere):
+                            <input type="file" name="client-file" id="get-files" multiple />
+        
+                            <!--https://stackoverflow.com/questions/31274329/get-list-of-filenames-in-folder-with-javascript-->
+        
+                    </td>
+
+
+            </tr>
+
+
+            <tr>
+
+                <td colspan="1" style="text-align: center">
+
+
+
+                </td>
+
+                <td colspan="1" style="text-align: center">
+                        
+                    <audio controls id="player" controlsList="nodownload">
+
+                        <source src=""  id="wavsource" >
+
+                        Your browser does not support the audio element. Please use Chrome or Firefox.
+
+                    </audio>
+
+
+
+                </td>
+
+
+                <td colspan="1" style="text-align: center">
+
+                    Now playing: <input type="text" value="No files!" id="playing" name="playing"/>
+
+                </td>
+
+                <td colspan="1" >
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="next_wav" class="next_button">
+                        NEXT
+                    </a>
+
+
+                </td>
+
+
+            </tr>
+
+
+            <tr>
+                <td colspan="4">
+                    &nbsp;
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    &nbsp;
+                </td>
+            </tr>
+
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Voice Type</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Whisper/Breathy
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="voice_type" id="voice_type" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Creaky/Harsh
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_voice_type" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Laryngeal Tension</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Lax
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="laryngeal_tension" id="laryngeal_tension" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Tense
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_laryngeal_tension" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Vocal Tract Tension</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Lax
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="vocal_tract_tension" id="vocal_tract_tension" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Tense
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_vocal_tract_tension" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Laryngeal height</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Lowered
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="laryngeal" id="laryngeal" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Raised
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_laryngeal" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Pharyngeal</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Constricted
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="pharyngeal" id="pharyngeal" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Expanded
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_pharyngeal" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Velopharyngeal</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Denasal
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="velo" id="velo" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Nasal
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_velo" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Dorsal</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Backed & Lowered
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="dorsal" id="dorsal" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Fronted & Raised
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_dorsal" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Apical</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Retracted
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="apical" id="apical" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Advanced
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_apical" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Mandibular</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Close
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="mandibular" id="mandibular" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Open
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_mandibular" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Labial</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Lip Spreading
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="labial" id="labial" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Lip Rounding
+                </td>
+                    <td width="5%">
+                        <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_labial" class="refresh_button">
+                            <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                        </a>
+                    </td>
+            </tr>
+
+        </table>
+        <table>
+            <tr>
+                <td width="30%" class="left-column"></td>
+                <td width="40%">
+                       <a href="#" data-role="button" class="export">Export results to CSV</a>
+                </td>
+                <td width="30%" class="right-column"></td>
+            </tr>
+        
+
+            <tr>
+                <td width="30%" class="left-column"></td>
+                <td width="40%" style="text-align: center"> 
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+                </td>
+                <td width="30%" class="right-column"></td>
+                    
+            </tr>
+
+
+            
+
+        </table>
+
+    </form>
+
+    
+
+
+
+
+
+
+
+
+
+    <script type='text/javascript' src="js/vastool.js"></script>
+	
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85758536-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
