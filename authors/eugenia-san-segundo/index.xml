@@ -6,10 +6,19 @@
     <description>Recent content on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/authors/eugenia-san-segundo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The use of the Vocal Profile Analysis for speaker characterization: Methodological proposals</title>
+      <link>/publication/san-segundo-use-2019/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/publication/san-segundo-use-2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A computer-based tool for the assessment of voice quality through visual analogue scales: VAS-Simplified Vocal Profile Analysis</title>
@@ -71,15 +80,6 @@
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0200</pubDate>
       
       <guid>/talk/cardoso-voice-2018/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The use of the Vocal Profile Analysis for speaker characterization: Methodological proposals</title>
-      <link>/publication/san-segundo-use-2018/</link>
-      <pubDate>Sun, 01 Jul 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/publication/san-segundo-use-2018/</guid>
       <description></description>
     </item>
     

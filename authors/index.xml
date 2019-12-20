@@ -6,17 +6,62 @@
     <description>Recent content in Authors on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Nov 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Colleen Kavanagh</title>
+      <link>/authors/colleen-kavanagh/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/colleen-kavanagh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Eugenia San Segundo</title>
       <link>/authors/eugenia-san-segundo/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>/authors/eugenia-san-segundo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paul Foulkes</title>
+      <link>/authors/paul-foulkes/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/paul-foulkes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peter French</title>
+      <link>/authors/peter-french/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/peter-french/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philip Harrison</title>
+      <link>/authors/philip-harrison/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/philip-harrison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vincent Hughes</title>
+      <link>/authors/vincent-hughes/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/vincent-hughes/</guid>
       <description></description>
     </item>
     
@@ -53,51 +98,6 @@
       <pubDate>Wed, 01 May 2019 00:00:00 +0200</pubDate>
       
       <guid>/authors/junjie-yang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paul Foulkes</title>
-      <link>/authors/paul-foulkes/</link>
-      <pubDate>Mon, 08 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/authors/paul-foulkes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Peter French</title>
-      <link>/authors/peter-french/</link>
-      <pubDate>Mon, 08 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/authors/peter-french/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Philip Harrison</title>
-      <link>/authors/philip-harrison/</link>
-      <pubDate>Mon, 08 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/authors/philip-harrison/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vincent Hughes</title>
-      <link>/authors/vincent-hughes/</link>
-      <pubDate>Mon, 08 Oct 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/authors/vincent-hughes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Colleen Kavanagh</title>
-      <link>/authors/colleen-kavanagh/</link>
-      <pubDate>Thu, 06 Sep 2018 00:00:00 +0200</pubDate>
-      
-      <guid>/authors/colleen-kavanagh/</guid>
       <description></description>
     </item>
     
