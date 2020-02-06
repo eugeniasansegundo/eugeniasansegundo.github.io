@@ -6,10 +6,19 @@
     <description>Recent content in Authors on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2020 00:00:00 +0100</lastBuildDate>
     
 	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Eugenia San Segundo</title>
+      <link>/authors/eugenia-san-segundo/</link>
+      <pubDate>Thu, 23 Jan 2020 00:00:00 +0100</pubDate>
+      
+      <guid>/authors/eugenia-san-segundo/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Colleen Kavanagh</title>
@@ -17,15 +26,6 @@
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>/authors/colleen-kavanagh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Eugenia San Segundo</title>
-      <link>/authors/eugenia-san-segundo/</link>
-      <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
-      
-      <guid>/authors/eugenia-san-segundo/</guid>
       <description></description>
     </item>
     
