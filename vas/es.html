@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-	<title>Visual Analogue Scale</title>
+	<title>VPA EVA</title>
 
     <style type="text/css">
 
@@ -49,21 +49,20 @@
                     <a href="https://eugeniasansegundo.github.io" target="_blank">EugeniaSanSegundo.github.io</a>
                     <br>
                     <br>
-                    Cite as: <a href="https://eugeniasansegundo.github.io/publication/san-segundo-computerbased-2019/" target="_blank" >San Segundo & Skarnitzl (2019)</a>
+                    Citar como: <a href="https://eugeniasansegundo.github.io/publication/san-segundo-computerbased-2019/" target="_blank" >San Segundo & Skarnitzl (2019)</a>
                     <br>
                 </th>
 
 
                 <th colspan="1" id="table-header" style="text-align: left">
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+                    Vocal Profile Analysis (simplificado)<br>
+
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-                    Visual Analogue Scale<br>
-
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;
-                    Simplified Vocal Profile Analysis 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Escala Visual Analógica 
                     
                     <br>
                     <br>
@@ -72,10 +71,9 @@
                 </th>
 
                 <th colspan="1" style="text-align: center">
-                    Version 1.0<br> (01/10/2019)<br>
+                    Versión 1.0<br> (05/12/2020)<br>
                     <br>
-				<a href="https://eugeniasansegundo.github.io/vas/es.html">Versión en español <br> <img src="sp.png" alt="Spain flag" width="30"></a>
-
+					<a href="https://eugeniasansegundo.github.io/vas/tool.html">English version <br> <img src="uk.png" alt="UK flag" width="30"></a>
                     <br>
                     <br>
                 </th>
@@ -89,7 +87,7 @@
                         &nbsp;
                     </td>
                     <td colspan="1">
-                        Choose your own files here (they will always remain in your computer; they are not uploaded anywhere):
+                        Elige tus propios archivos de sonido (estos permanecerán en tu ordenador; no se comparten con nadie):
                             <input type="file" name="client-file" id="get-files" multiple />
         
                             <!--https://stackoverflow.com/questions/31274329/get-list-of-filenames-in-folder-with-javascript-->
@@ -125,7 +123,7 @@
 
                 <td colspan="1" style="text-align: center">
 
-                    Now playing: <input type="text" value="No files!" id="playing" name="playing"/>
+                    Reproduciendo: <input type="text" value="No files!" id="playing" name="playing"/>
 
                 </td>
 
@@ -156,19 +154,19 @@
 
             <tr>
 		<td width="10%">&nbsp;</td>
-                <td width="75%" style="text-align: center" class="feature">Voice Type</td>
+                <td width="75%" style="text-align: center" class="feature">Modo de fonación</td>
 		<td width="10%">&nbsp;</td>
 		<td width="5%">&nbsp;</td>
             </tr>
             <tr>
                 <td width="10%" class="left-column">
-                    Whisper/Breathy
+                    Voz susurrada/aérea
                 </td>
                 <td width="75%">
                     <input type="range" class="slider" name="voice_type" id="voice_type" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
-                    Creaky/Harsh
+                    Voz rota/dura
                 </td>
                 <td width="5%">
                     <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_voice_type" class="refresh_button">
@@ -181,20 +179,20 @@
 
             <tr>
                 <td width="10%">&nbsp;</td>
-                <td width="75%" style="text-align: center" class="feature">Laryngeal Tension</td>
+                <td width="75%" style="text-align: center" class="feature">Tensión laríngea</td>
 		<td width="10%">&nbsp;</td>
 		<td width="5%">&nbsp;</td>
 
             </tr>
             <tr>
                 <td width="10%" class="left-column">
-                    Lax
+                    Voz relajada
                 </td>
                 <td width="75%">
                     <input type="range" class="slider" name="laryngeal_tension" id="laryngeal_tension" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
-                    Tense
+                    Voz tensa
                 </td>
                 <td width="5%">
                     <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_laryngeal_tension" class="refresh_button">
@@ -206,19 +204,19 @@
 
             <tr>
                 <td width="10%">&nbsp;</td>
-                <td width="75%" style="text-align: center" class="feature">Vocal Tract Tension</td>
+                <td width="75%" style="text-align: center" class="feature">Tensión del tracto vocal</td>
 		<td width="10%">&nbsp;</td>
 		<td width="5%">&nbsp;</td>
             </tr>
             <tr>
                 <td width="10%" class="left-column">
-                    Lax
+                    Tracto vocal relajado
                 </td>
                 <td width="75%">
                     <input type="range" class="slider" name="vocal_tract_tension" id="vocal_tract_tension" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
-                    Tense
+                    Tracto vocal tenso
                 </td>
                 <td width="5%">
                     <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_vocal_tract_tension" class="refresh_button">
@@ -229,20 +227,20 @@
 
             <tr>
 		<td width="10%">&nbsp;</td>
-                <td width="75%" style="text-align: center" class="feature">Laryngeal height</td>
+                <td width="75%" style="text-align: center" class="feature">Altura de la laringe</td>
 		<td width="10%">&nbsp;</td>
 		<td width="5%">&nbsp;</td>
 
             </tr>
             <tr>
                 <td width="10%" class="left-column">
-                    Lowered
+                    Laringe bajada
                 </td>
                 <td width="75%">
                     <input type="range" class="slider" name="laryngeal" id="laryngeal" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
-                    Raised
+                    Laringe elevada
                 </td>
                 <td width="5%">
                     <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_laryngeal" class="refresh_button">
@@ -253,19 +251,19 @@
 
             <tr>
 		<td width="10%">&nbsp;</td>
-                <td width="75%" style="text-align: center" class="feature">Pharyngeal</td>
+                <td width="75%" style="text-align: center" class="feature">Ajuste faríngeo</td>
 		<td width="10%">&nbsp;</td>
 		<td width="5%">&nbsp;</td>
             </tr>
             <tr>
                 <td width="10%" class="left-column">
-                    Constricted
+                    Faringe constreñida
                 </td>
                 <td width="75%">
                     <input type="range" class="slider" name="pharyngeal" id="pharyngeal" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
-                    Expanded
+                    Faringe expandida
                 </td>
                 <td width="5%">
                     <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_pharyngeal" class="refresh_button">
@@ -277,19 +275,19 @@
 
             <tr>
 		<td width="10%">&nbsp;</td>
-                <td width="75%" style="text-align: center" class="feature">Velopharyngeal</td>
+                <td width="75%" style="text-align: center" class="feature">Ajuste velofaríngeo</td>
 		<td width="10%">&nbsp;</td>
 		<td width="5%">&nbsp;</td>
             </tr>
             <tr>
                 <td width="10%" class="left-column">
-                    Denasal
+                    Voz desnasalizada
                 </td>
                 <td width="75%">
                     <input type="range" class="slider" name="velo" id="velo" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
-                    Nasal
+                    Voz nasal
                 </td>
                 <td width="5%">
                     <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_velo" class="refresh_button">
@@ -300,20 +298,20 @@
 
             <tr>
 		<td width="10%">&nbsp;</td>
-                <td width="75%" style="text-align: center" class="feature">Dorsal</td>
+                <td width="75%" style="text-align: center" class="feature">Ajuste dorsal</td>
 		<td width="10%">&nbsp;</td>
 		<td width="5%">&nbsp;</td>
 
             </tr>
             <tr>
                 <td width="10%" class="left-column">
-                    Backed & Lowered
+                    Dorso de la lengua retrocedido y bajado
                 </td>
                 <td width="75%">
                     <input type="range" class="slider" name="dorsal" id="dorsal" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
-                    Fronted & Raised
+                    Dorso de la lengua adelantado y elevado
                 </td>
                 <td width="5%">
                     <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_dorsal" class="refresh_button">
@@ -324,20 +322,20 @@
 
             <tr>
 		<td width="10%">&nbsp;</td>
-                <td width="75%" style="text-align: center" class="feature">Apical</td>
+                <td width="75%" style="text-align: center" class="feature">Ajuste apical</td>
 		<td width="10%">&nbsp;</td>
 		<td width="5%">&nbsp;</td>
 
             </tr>
             <tr>
                 <td width="10%" class="left-column">
-                    Retracted
+                    Ápice de la lengua retraído
                 </td>
                 <td width="75%">
                     <input type="range" class="slider" name="apical" id="apical" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
-                    Advanced
+                    Ápice de la lengua avanzado
                 </td>
                 <td width="5%">
                     <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_apical" class="refresh_button">
@@ -348,19 +346,19 @@
 
             <tr>
 		<td width="10%">&nbsp;</td>
-                <td width="75%" style="text-align: center" class="feature">Mandibular</td>
+                <td width="75%" style="text-align: center" class="feature">Ajuste mandibular</td>
 		<td width="10%">&nbsp;</td>
 		<td width="5%">&nbsp;</td>
             </tr>
             <tr>
                 <td width="10%" class="left-column">
-                    Close
+                    Mandíbula cerrada
                 </td>
                 <td width="75%">
                     <input type="range" class="slider" name="mandibular" id="mandibular" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
-                    Open
+                    Mandíbula abierta
                 </td>
                 <td width="5%">
                     <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_mandibular" class="refresh_button">
@@ -371,20 +369,20 @@
 
             <tr>
 		<td width="10%">&nbsp;</td>
-                <td width="75%" style="text-align: center" class="feature">Labial</td>
+                <td width="75%" style="text-align: center" class="feature">Ajuste labial</td>
 		<td width="10%">&nbsp;</td>
 		<td width="5%">&nbsp;</td>
 
             </tr>
             <tr>
                 <td width="10%" class="left-column">
-                    Lip Spreading
+                    Labios extendidos
                 </td>
                 <td width="75%">
                     <input type="range" class="slider" name="labial" id="labial" value="50" min="0" max="100" >
                 </td>
                 <td width="10%" class="right-column">
-                    Lip Rounding
+                    Labios redondeados 
                 </td>
                     <td width="5%">
                         <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_labial" class="refresh_button">
@@ -398,7 +396,7 @@
             <tr>
                 <td width="30%" class="left-column"></td>
                 <td width="40%">
-                       <a href="#" data-role="button" class="export">Export results to CSV</a>
+                       <a href="#" data-role="button" class="export">Exportar resultados a CSV</a>
                 </td>
                 <td width="30%" class="right-column"></td>
             </tr>
