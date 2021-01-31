@@ -1,0 +1,445 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 TRANSITIONAL//EN">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>VPA EVA</title>
+
+    <style type="text/css">
+
+        body{
+            background-color: honeydew;
+        }
+    </style>
+
+    <!-- Include meta tag to ensure desktop rendering-->
+    <meta name="viewport" content="width=1024">
+
+    <!-- Include jQuery Mobile stylesheets -->
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+    <!-- Include the jQuery library -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <!-- Include the jQuery Mobile library -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <link rel="stylesheet" href="vas.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+
+
+
+</head>
+
+<body onload="hideInputFields()">
+
+
+
+
+
+<br>
+
+    <form id="myForm">
+
+          
+        <table>
+
+            <tr>
+                <th colspan="1" style="text-align: right">
+                    <a href="https://eugeniasansegundo.github.io" target="_blank">EugeniaSanSegundo.github.io</a>
+                    <br>
+                    <br>
+                    Citar como: <a href="https://eugeniasansegundo.github.io/publication/san-segundo-computerbased-2019/" target="_blank" >San Segundo & Skarnitzl (2019)</a>
+                    <br>
+                </th>
+
+
+                <th colspan="1" id="table-header" style="text-align: left">
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+                    Vocal Profile Analysis (simplificado)<br>
+
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Escala Visual Anal&oacute;gica 
+                    
+                    <br>
+                    <br>
+                    <br>
+
+                </th>
+
+                <th colspan="1" style="text-align: center">
+                    Versi&oacute;n 1.0<br> (05/12/2020)<br>
+                    <br>
+					<a href="https://eugeniasansegundo.github.io/vas/tool.html">English version <br> <img src="uk.png" alt="UK flag" width="30"></a>
+                    <br>
+                    <br>
+                </th>
+
+
+
+            </tr>
+
+            <tr>
+                    <td colspan=1>
+                        &nbsp;
+                    </td>
+                    <td colspan="1">
+                        Elige tus propios archivos de sonido (estos permanecer&aacute;n en tu ordenador; no se comparten con nadie):
+                            <input type="file" name="client-file" id="get-files" multiple />
+        
+                            <!--https://stackoverflow.com/questions/31274329/get-list-of-filenames-in-folder-with-javascript-->
+        
+                    </td>
+
+
+            </tr>
+
+
+            <tr>
+
+                <td colspan="1" style="text-align: center">
+
+
+
+                </td>
+
+                <td colspan="1" style="text-align: center">
+                        
+                    <audio controls id="player" controlsList="nodownload">
+
+                        <source src=""  id="wavsource" >
+
+                        Your browser does not support the audio element. Please use Chrome or Firefox.
+
+                    </audio>
+
+
+
+                </td>
+
+
+                <td colspan="1" style="text-align: center">
+
+                    Reproduciendo: <input type="text" value="No files!" id="playing" name="playing"/>
+
+                </td>
+
+                <td colspan="1" >
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="next_wav" class="next_button">
+                        NEXT
+                    </a>
+
+
+                </td>
+
+
+            </tr>
+
+
+            <tr>
+                <td colspan="4">
+                    &nbsp;
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="4">
+                    &nbsp;
+                </td>
+            </tr>
+
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Modo de fonaci&oacute;n</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Voz susurrada/a&eacute;rea
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="voice_type" id="voice_type" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Voz rota/dura
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_voice_type" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Tensi&oacute;n lar&iacute;ngea</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Voz relajada
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="laryngeal_tensi&oacute;n" id="laryngeal_tension" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Voz tensa
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_laryngeal_tension" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Tensi&oacute;n del tracto vocal</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Tracto vocal relajado
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="vocal_tract_tension" id="vocal_tract_tension" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Tracto vocal tenso
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_vocal_tract_tension" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Altura de la laringe</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Laringe bajada
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="laryngeal" id="laryngeal" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Laringe elevada
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_laryngeal" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Ajuste far&iacute;ngeo</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Faringe constre&#241;ida
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="pharyngeal" id="pharyngeal" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Faringe expandida
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_pharyngeal" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Ajuste velofar&iacute;ngeo</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Voz desnasalizada
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="velo" id="velo" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Voz nasal
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_velo" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Ajuste dorsal</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Dorso de la lengua retrocedido y bajado
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="dorsal" id="dorsal" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Dorso de la lengua adelantado y elevado
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_dorsal" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Ajuste apical</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    &Aacute;pice de la lengua retra&iacute;do
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="apical" id="apical" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    &Aacute;pice de la lengua avanzado
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_apical" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Ajuste mandibular</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Mand&iacute;bula cerrada
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="mandibular" id="mandibular" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Mand&iacute;bula abierta
+                </td>
+                <td width="5%">
+                    <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_mandibular" class="refresh_button">
+                        <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+		<td width="10%">&nbsp;</td>
+                <td width="75%" style="text-align: center" class="feature">Ajuste labial</td>
+		<td width="10%">&nbsp;</td>
+		<td width="5%">&nbsp;</td>
+
+            </tr>
+            <tr>
+                <td width="10%" class="left-column">
+                    Labios extendidos
+                </td>
+                <td width="75%">
+                    <input type="range" class="slider" name="labial" id="labial" value="50" min="0" max="100" >
+                </td>
+                <td width="10%" class="right-column">
+                    Labios redondeados 
+                </td>
+                    <td width="5%">
+                        <a data-role="button" href="#" data-shadow="false" data-theme="none" id="refresh_labial" class="refresh_button">
+                            <img src="refreshcirclearrowicon.png" border="0" class="refresh"/>
+                        </a>
+                    </td>
+            </tr>
+
+        </table>
+        <table>
+            <tr>
+                <td width="30%" class="left-column"></td>
+                <td width="40%">
+                       <a href="#" data-role="button" class="export">Exportar resultados a CSV</a>
+                </td>
+                <td width="30%" class="right-column"></td>
+            </tr>
+        
+
+            <tr>
+                <td width="30%" class="left-column"></td>
+                <td width="40%" style="text-align: center"> 
+                    <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><br>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+                </td>
+                <td width="30%" class="right-column"></td>
+                    
+            </tr>
+
+
+            
+
+        </table>
+
+    </form>
+
+    
+
+
+
+
+
+
+
+
+
+    <script type='text/javascript' src="js/vastool.js"></script>
+	
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-85758536-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>

@@ -61,6 +61,8 @@ $(document).ready(function(){
             //document.getElementById('username').setAttribute('value', username);
             //we reset all the sliders
 
+			
+
             $('#voice_type').val(50).slider("refresh");
             $('#laryngeal_tension').val(50).slider("refresh");
             $('#vocal_tract_tension').val(50).slider("refresh");
@@ -118,6 +120,20 @@ $(document).ready(function(){
 
 
 });
+
+function hideInputFields()
+{
+    document.getElementsByClassName('ui-slider-input')[0].style.visibility='hidden';
+    document.getElementsByClassName('ui-slider-input')[1].style.visibility='hidden';
+    document.getElementsByClassName('ui-slider-input')[2].style.visibility='hidden';
+    document.getElementsByClassName('ui-slider-input')[3].style.visibility='hidden';
+    document.getElementsByClassName('ui-slider-input')[4].style.visibility='hidden';
+    document.getElementsByClassName('ui-slider-input')[5].style.visibility='hidden';
+    document.getElementsByClassName('ui-slider-input')[6].style.visibility='hidden';
+    document.getElementsByClassName('ui-slider-input')[7].style.visibility='hidden';
+    document.getElementsByClassName('ui-slider-input')[8].style.visibility='hidden';
+    document.getElementsByClassName('ui-slider-input')[9].style.visibility='hidden';
+}
 
 function exportTableToCSV($form, filename) {
 
