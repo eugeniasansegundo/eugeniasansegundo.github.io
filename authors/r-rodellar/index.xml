@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R Rodellar on Eugenia San Segundo</title>
-    <link>/authors/r-rodellar/</link>
+    <link>https://eugeniasansegundo.github.io/authors/r-rodellar/</link>
     <description>Recent content in R Rodellar on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0100</lastBuildDate>
     
-	<atom:link href="/authors/r-rodellar/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://eugeniasansegundo.github.io/authors/r-rodellar/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Using Dysphonic Voice to Characterize Speakers’ Biometry</title>
-      <link>/landing/gomez-vilda-using-2014/</link>
+      <link>https://eugeniasansegundo.github.io/landing/gomez-vilda-using-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
       
-      <guid>/landing/gomez-vilda-using-2014/</guid>
+      <guid>https://eugeniasansegundo.github.io/landing/gomez-vilda-using-2014/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Using Dysphonic Voice to Characterize Speakers’ Biometry</title>
-      <link>/publication/gomez-vilda-using-2014/</link>
+      <link>https://eugeniasansegundo.github.io/publication/gomez-vilda-using-2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
       
-      <guid>/publication/gomez-vilda-using-2014/</guid>
+      <guid>https://eugeniasansegundo.github.io/publication/gomez-vilda-using-2014/</guid>
       <description></description>
     </item>
     
