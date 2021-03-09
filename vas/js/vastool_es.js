@@ -150,6 +150,9 @@ function exportTableToCSV($form, filename) {
     var valuestr="";
     var flds = $form.elements;
     var csvFld=null;
+    var playing = flds["playing"].value;
+    namestr="playing,";
+    valuestr=playing+ ",";
         for (fx=0; fx < flds.length; fx++) {
             var fld = flds[fx];
             if (fld.type == "button") { continue; }
