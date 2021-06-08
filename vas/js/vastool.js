@@ -96,7 +96,9 @@ $(document).ready(function(){
     });
 
 
-    $(document).on('change','#get-files' , function(){ 
+    $(document).on('change','#get-files' , function(){
+
+        var inp = document.getElementById("get-files");
     
         console.log("file input changed");
         if (inp.files.length>0)
