@@ -14,6 +14,7 @@ $(document).ready(function(){
     $('.refresh_button').click(function(){
         //$(this).siblings().toggle('slow');
         //$('#labial').set(50);
+		//console.log($(this).attr("id"));
         //console.log($(this).attr("id").substr(8,25));
 
         $('#'+$(this).attr("id").substr(8,25)).val(50).slider("refresh");
@@ -60,14 +61,13 @@ $(document).ready(function(){
             document.getElementById("playing").setAttribute('value', inp.files[currentid].name);
 
 
-            var username = document.getElementById('username').value;
+            //var username = document.getElementById('username').value;
 
             //Old reset code - Not needed
             //document.getElementById('myForm').reset();
             //document.getElementById('username').setAttribute('value', username);
             //we reset all the sliders
 
-			
 
             $('#voice_type').val(50).slider("refresh");
             $('#laryngeal_tension').val(50).slider("refresh");
@@ -132,6 +132,11 @@ $(document).ready(function(){
 
 function hideInputFields()
 {
+
+console.log(document.getElementsByClassName('ui-slider-input')[0].style.visibility);
+
+    if(document.getElementsByClassName('ui-slider-input')[0].style.visibility=='visible' || document.getElementsByClassName('ui-slider-input')[0].style.visibility=='')
+    {
     document.getElementsByClassName('ui-slider-input')[0].style.visibility='hidden';
     document.getElementsByClassName('ui-slider-input')[1].style.visibility='hidden';
     document.getElementsByClassName('ui-slider-input')[2].style.visibility='hidden';
@@ -142,6 +147,24 @@ function hideInputFields()
     document.getElementsByClassName('ui-slider-input')[7].style.visibility='hidden';
     document.getElementsByClassName('ui-slider-input')[8].style.visibility='hidden';
     document.getElementsByClassName('ui-slider-input')[9].style.visibility='hidden';
+	
+	return;
+    }
+
+    else(document.getElementsByClassName('ui-slider-input')[0].style.visibility=='hidden')
+    {
+    document.getElementsByClassName('ui-slider-input')[0].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[1].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[2].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[3].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[4].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[5].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[6].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[7].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[8].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[9].style.visibility='visible';
+    }
+
 }
 
 function exportTableToCSV($form, filename) {

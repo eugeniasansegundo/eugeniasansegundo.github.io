@@ -40,6 +40,8 @@ $(document).ready(function(){
             var r = confirm("Did you add a value for all the features for this speaker? Please do it before doing the next one");
             
             if (r==true) {
+            $form = document.getElementById('myForm')
+            exportTableToCSV.call(this, $form, 'export.csv');													 
             
             console.log("Total files: "+ inp.files.length);
             console.log("Previous id: "+ currentid);
@@ -54,7 +56,7 @@ $(document).ready(function(){
             document.getElementById("playing").setAttribute('value', inp.files[currentid].name);
 
 
-            var username = document.getElementById('username').value;
+            //var username = document.getElementById('username').value;
 
             //Old reset code - Not needed
             //document.getElementById('myForm').reset();
@@ -125,6 +127,11 @@ $(document).ready(function(){
 
 function hideInputFields()
 {
+
+console.log(document.getElementsByClassName('ui-slider-input')[0].style.visibility);
+
+    if(document.getElementsByClassName('ui-slider-input')[0].style.visibility=='visible' || document.getElementsByClassName('ui-slider-input')[0].style.visibility=='')
+    {
     document.getElementsByClassName('ui-slider-input')[0].style.visibility='hidden';
     document.getElementsByClassName('ui-slider-input')[1].style.visibility='hidden';
     document.getElementsByClassName('ui-slider-input')[2].style.visibility='hidden';
@@ -135,6 +142,24 @@ function hideInputFields()
     document.getElementsByClassName('ui-slider-input')[7].style.visibility='hidden';
     document.getElementsByClassName('ui-slider-input')[8].style.visibility='hidden';
     document.getElementsByClassName('ui-slider-input')[9].style.visibility='hidden';
+	
+	return;
+    }
+
+    else(document.getElementsByClassName('ui-slider-input')[0].style.visibility=='hidden')
+    {
+    document.getElementsByClassName('ui-slider-input')[0].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[1].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[2].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[3].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[4].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[5].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[6].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[7].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[8].style.visibility='visible';
+    document.getElementsByClassName('ui-slider-input')[9].style.visibility='visible';
+    }
+
 }
 
 function exportTableToCSV($form, filename) {
@@ -144,7 +169,10 @@ function exportTableToCSV($form, filename) {
     var namestr="";
     var valuestr="";
     var flds = $form.elements;
-    var csvFld=null;
+    var csvFld=null;    
+    var playing = flds["playing"].value;
+    namestr="playing,";
+    valuestr=playing+ ",";
         for (fx=0; fx < flds.length; fx++) {
             var fld = flds[fx];
             if (fld.type == "button") { continue; }
