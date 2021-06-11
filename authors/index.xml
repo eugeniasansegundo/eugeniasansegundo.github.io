@@ -6,7 +6,7 @@
     <description>Recent content in Authors on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Feb 2021 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jun 2021 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://eugeniasansegundo.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,36 @@
     <item>
       <title>Eugenia San Segundo</title>
       <link>https://eugeniasansegundo.github.io/authors/eugenia-san-segundo/</link>
-      <pubDate>Thu, 18 Feb 2021 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 03 Jun 2021 00:00:00 +0200</pubDate>
       
       <guid>https://eugeniasansegundo.github.io/authors/eugenia-san-segundo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carmen Victoria Marrero Aguiar</title>
+      <link>https://eugeniasansegundo.github.io/authors/carmen-victoria-marrero-aguiar/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/authors/carmen-victoria-marrero-aguiar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Celia Teira Serrano</title>
+      <link>https://eugeniasansegundo.github.io/authors/celia-teira-serrano/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/authors/celia-teira-serrano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Juan Mar&amp;#237a Garrido Almi&amp;#241;ana</title>
+      <link>https://eugeniasansegundo.github.io/authors/juan-mar#237a-garrido-almi%23241ana/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/authors/juan-mar#237a-garrido-almi%23241ana/</guid>
       <description></description>
     </item>
     
@@ -62,15 +89,6 @@
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0100</pubDate>
       
       <guid>https://eugeniasansegundo.github.io/authors/vincent-hughes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Radek Skarnitzl</title>
-      <link>https://eugeniasansegundo.github.io/authors/radek-skarnitzl/</link>
-      <pubDate>Fri, 01 Nov 2019 00:00:00 +0100</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/authors/radek-skarnitzl/</guid>
       <description></description>
     </item>
     

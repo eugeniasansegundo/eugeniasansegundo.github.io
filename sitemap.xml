@@ -3,8 +3,8 @@
     
     <url>
     
-      <loc>https://eugeniasansegundo.github.io/publication_types/2/</loc>
-      <lastmod>2021-02-18T00:00:00+01:00</lastmod>
+      <loc>https://eugeniasansegundo.github.io/authors/</loc>
+      <lastmod>2021-06-03T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -12,9 +12,8 @@
     
     <url>
     
-      <loc>https://eugeniasansegundo.github.io/authors/</loc>
-      <lastmod>2021-02-18T00:00:00+01:00</lastmod>
-      <priority>0</priority>
+      <loc>https://eugeniasansegundo.github.io/talk/</loc>
+      <lastmod>2021-06-03T00:00:00+02:00</lastmod>
     </url>
     
   
@@ -22,7 +21,7 @@
     <url>
     
       <loc>https://eugeniasansegundo.github.io/authors/eugenia-san-segundo/</loc>
-      <lastmod>2021-02-18T00:00:00+01:00</lastmod>
+      <lastmod>2021-06-03T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -31,6 +30,58 @@
     <url>
     
       <loc>https://eugeniasansegundo.github.io/</loc>
+      <lastmod>2021-06-03T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://eugeniasansegundo.github.io/talk/san-segundo-maximum-2021/</loc>
+      <lastmod>2021-06-03T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://eugeniasansegundo.github.io/authors/carmen-victoria-marrero-aguiar/</loc>
+      <lastmod>2021-05-12T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://eugeniasansegundo.github.io/authors/celia-teira-serrano/</loc>
+      <lastmod>2021-05-12T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://eugeniasansegundo.github.io/authors/juan-mar#237a-garrido-almi%23241ana/</loc>
+      <lastmod>2021-05-12T00:00:00+02:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://eugeniasansegundo.github.io/talk/san-segundo-metodologia-2021/</loc>
+      <lastmod>2021-05-12T00:00:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://eugeniasansegundo.github.io/publication_types/2/</loc>
       <lastmod>2021-02-18T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
@@ -50,14 +101,6 @@
       <loc>https://eugeniasansegundo.github.io/publication_types/</loc>
       <lastmod>2021-02-18T00:00:00+01:00</lastmod>
       <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://eugeniasansegundo.github.io/talk/</loc>
-      <lastmod>2021-01-21T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -126,23 +169,6 @@
     
       <loc>https://eugeniasansegundo.github.io/authors/vincent-hughes/</loc>
       <lastmod>2019-12-01T00:00:00+01:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://eugeniasansegundo.github.io/publication/san-segundo-computerbased-2019/</loc>
-      <lastmod>2019-11-01T00:00:00+01:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://eugeniasansegundo.github.io/authors/radek-skarnitzl/</loc>
-      <lastmod>2019-11-01T00:00:00+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -462,6 +488,14 @@
       <loc>https://eugeniasansegundo.github.io/authors/pedro-goacutemez-vilda/</loc>
       <lastmod>2017-07-11T00:00:00+02:00</lastmod>
       <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://eugeniasansegundo.github.io/talk/san-segundo-prosody-2017-copy/</loc>
+      <lastmod>2017-07-11T00:00:00+02:00</lastmod>
     </url>
     
   
