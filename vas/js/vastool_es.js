@@ -38,10 +38,16 @@ $(document).ready(function(){
         
         if (currentid<inp.files.length-1){
 
+        if (document.documentElement.lang=="es")
+		{
         var encoded = "&#191;Has evaluado los 10 ajustes de este hablante? Hazlo antes de pasar al siguiente hablante";
         var decoded = $("<div/>").html(encoded).text();
 		
-            var r = confirm(decoded);
+        var r = confirm(decoded);
+		}
+		else{
+		var r = confirm("Did you add a value for all the features for this speaker? Please do it before doing the next one");
+	    }
             
             if (r==true) {
 
@@ -91,8 +97,14 @@ $(document).ready(function(){
             }
         }
         else{
-
-            alert("Has terminado!"+results);
+		if (document.documentElement.lang=="es")
+		{
+        alert("Has terminado!");
+		}
+		else{
+        alert("You have already finished evaluating all the files!! ");
+	    }
+            
 
             //TO DO SERIALIZE TO CSV FUNCTION
             //https://stackoverflow.com/questions/45034346/html-form-into-csv-files-with-js-and-jquery
