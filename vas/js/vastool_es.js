@@ -1,6 +1,13 @@
 /**
  * Created by FVV on 18/09/2016.
  */
+ 
+$(window).bind('beforeunload', function(){
+  console.log("leaving page");
+  document.getElementById('player').pause();
+  document.getElementById('player').src='';
+  document.getElementById('player').load();
+});
 
 $(document).ready(function(){
 
