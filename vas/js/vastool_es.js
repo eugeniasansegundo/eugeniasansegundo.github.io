@@ -143,7 +143,7 @@ $(document).ready(function(){
 		audio.load();
         audio.setAttribute('src', URL.createObjectURL(audiofiles[0]));
         audio.load();
-        //audio.play();
+        audio.play();
         document.getElementById("playing").setAttribute('value', audiofiles[0].name);
         
         }
