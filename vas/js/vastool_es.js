@@ -9,6 +9,7 @@ $(document).ready(function(){
     var audiofiles=null;
     var results = "";
 	document.getElementById('player').load();
+	document.getElementById('player').src='';
 
 
     
@@ -129,6 +130,8 @@ $(document).ready(function(){
         
         var audio = document.getElementById('player');
         var source = document.getElementById('wavsource');
+		audio.src='';
+		audio.load();
         audio.src = URL.createObjectURL(audiofiles[0]);
         audio.load();
         audio.play();
