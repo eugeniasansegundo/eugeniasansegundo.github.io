@@ -8,6 +8,7 @@ $(document).ready(function(){
     var inp = document.getElementById("get-files");
     var audiofiles=null;
     var results = "";
+	document.getElementById('player').load();
 
 
     
