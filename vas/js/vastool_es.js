@@ -132,6 +132,7 @@ $(document).ready(function(){
         var source = document.getElementById('wavsource');
 		audio.src='';
 		audio.load();
+		audio.pause();
         audio.src = URL.createObjectURL(audiofiles[0]);
         audio.load();
         audio.play();
