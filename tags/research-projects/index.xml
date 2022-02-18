@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research Projects on Eugenia San Segundo</title>
+    <link>https://eugeniasansegundo.github.io/tags/research-projects/</link>
+    <description>Recent content in Research Projects on Eugenia San Segundo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Jan 2019 20:53:18 +0100</lastBuildDate>
+    
+	<atom:link href="https://eugeniasansegundo.github.io/tags/research-projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Research on Key Technologies for Forensic Speaker Comparison</title>
+      <link>https://eugeniasansegundo.github.io/project/key-technologies-for-forensic-speaker-comparison/</link>
+      <pubDate>Tue, 01 Jan 2019 20:53:18 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/project/key-technologies-for-forensic-speaker-comparison/</guid>
+      <description>International project at the Shanxi Police College (Taiyuan, China)</description>
+    </item>
+    
+    <item>
+      <title>Perceptual, spectral and prosodic correlates of vocal tract tension</title>
+      <link>https://eugeniasansegundo.github.io/project/snsf-project/</link>
+      <pubDate>Wed, 01 Feb 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/project/snsf-project/</guid>
+      <description>SNSF project aimed at testing whether perceptual ratings for vocal tract tension correlate with prosodic-acoustic measures.</description>
+    </item>
+    
+    <item>
+      <title>How to deal with voice quality in Forensic Phonetics</title>
+      <link>https://eugeniasansegundo.github.io/project/iafpa-project-2/</link>
+      <pubDate>Fri, 01 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/project/iafpa-project-2/</guid>
+      <description>IAFPA project aimed at providing a simplified, yet reliable and validated, perceptual protocol that could be used by forensic phoneticians to describe a speaker in terms of his/her voice quality, and/or when required to compare two or more voices using an auditory approach.</description>
+    </item>
+    
+    <item>
+      <title>Voice and Identity: Source, Filter, Biometric</title>
+      <link>https://eugeniasansegundo.github.io/project/voice-and-identity/</link>
+      <pubDate>Wed, 27 May 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/project/voice-and-identity/</guid>
+      <description>Arts &amp;amp; Humanities Research Council (AHRC) project &lt;code&gt;external_link&lt;/code&gt;.</description>
+    </item>
+    
+    <item>
+      <title>Forensic comparison of Spanish twins and non-twin brothers</title>
+      <link>https://eugeniasansegundo.github.io/project/iafpa-project-1/</link>
+      <pubDate>Fri, 01 Apr 2011 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/project/iafpa-project-1/</guid>
+      <description>IAFPA project aimed at investigating the usefulness of analyzing speech samples of adult male Spanish siblings and twins (identical and fraternal), with a focus on analyzing formant trajectories in vocalic sequences.</description>
+    </item>
+    
+    <item>
+      <title>Incorporation of forensic analysis techniques as part of an automatic speaker recognition system</title>
+      <link>https://eugeniasansegundo.github.io/project/unsw-project/</link>
+      <pubDate>Fri, 01 Oct 2010 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/project/unsw-project/</guid>
+      <description>University of New South Wales project funded by the Intelligence Advanced Research Projects Activity (IARPA), through the Army Research Laboratory (ARL)</description>
+    </item>
+    
+    <item>
+      <title>Cualidad Individual de la Voz en la Identificación de Locutor</title>
+      <link>https://eugeniasansegundo.github.io/project/civil/</link>
+      <pubDate>Wed, 01 Sep 2010 16:12:29 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/project/civil/</guid>
+      <description>Project funded by the Spanish Ministry of Science and Innovation</description>
+    </item>
+    
+  </channel>
+</rss>
