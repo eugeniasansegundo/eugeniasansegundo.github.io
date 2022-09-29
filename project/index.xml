@@ -6,10 +6,28 @@
     <description>Recent content in Projects on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Oct 2020 17:46:13 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 07 Sep 2022 17:46:13 +0100</lastBuildDate>
     
 	<atom:link href="https://eugeniasansegundo.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Innovación docente en Análisis del Discurso a través de textos humorísticos continuos y discontinuos</title>
+      <link>https://eugeniasansegundo.github.io/project/teaching-innovation-project2/</link>
+      <pubDate>Wed, 07 Sep 2022 17:46:13 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/project/teaching-innovation-project2/</guid>
+      <description>Teaching Innovation Project aimed at promoting students&amp;rsquo; motivation, participation and performance improvement</description>
+    </item>
+    
+    <item>
+      <title>How deepfake is your voice? Understanding the linguistic foundations of deepfakes</title>
+      <link>https://eugeniasansegundo.github.io/project/deepfakes/</link>
+      <pubDate>Thu, 01 Sep 2022 16:12:29 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/project/deepfakes/</guid>
+      <description>Research project funded by the Spanish Ministry of Science and Innovation</description>
+    </item>
     
     <item>
       <title>Metodologías de aprendizaje activo en la lingüística y sus aplicaciones</title>
@@ -80,7 +98,7 @@
       <pubDate>Wed, 01 Sep 2010 16:12:29 +0100</pubDate>
       
       <guid>https://eugeniasansegundo.github.io/project/civil/</guid>
-      <description>Project funded by the Spanish Ministry of Science and Innovation</description>
+      <description>Research project funded by the Spanish Ministry of Science and Innovation</description>
     </item>
     
   </channel>

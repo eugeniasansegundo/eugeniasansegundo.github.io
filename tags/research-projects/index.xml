@@ -6,10 +6,19 @@
     <description>Recent content in Research Projects on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jan 2019 20:53:18 +0100</lastBuildDate>
+    <lastBuildDate>Thu, 01 Sep 2022 16:12:29 +0100</lastBuildDate>
     
 	<atom:link href="https://eugeniasansegundo.github.io/tags/research-projects/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How deepfake is your voice? Understanding the linguistic foundations of deepfakes</title>
+      <link>https://eugeniasansegundo.github.io/project/deepfakes/</link>
+      <pubDate>Thu, 01 Sep 2022 16:12:29 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/project/deepfakes/</guid>
+      <description>Research project funded by the Spanish Ministry of Science and Innovation</description>
+    </item>
     
     <item>
       <title>Research on Key Technologies for Forensic Speaker Comparison</title>
@@ -71,7 +80,7 @@
       <pubDate>Wed, 01 Sep 2010 16:12:29 +0100</pubDate>
       
       <guid>https://eugeniasansegundo.github.io/project/civil/</guid>
-      <description>Project funded by the Spanish Ministry of Science and Innovation</description>
+      <description>Research project funded by the Spanish Ministry of Science and Innovation</description>
     </item>
     
   </channel>
