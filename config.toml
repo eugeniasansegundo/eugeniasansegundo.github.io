@@ -1,0 +1,4 @@
+theme = "academic"
+baseURL = "https://eugeniasansegundo.github.io/"
+languageCode = "en-us"
+title = "Eugenia San Segundo"
