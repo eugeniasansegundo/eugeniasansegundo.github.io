@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Junjie Yang on Eugenia San Segundo</title>
+    <link>https://eugeniasansegundo.github.io/authors/junjie-yang/</link>
+    <description>Recent content in Junjie Yang on Eugenia San Segundo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://eugeniasansegundo.github.io/authors/junjie-yang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Formant dynamics of Spanish vocalic sequences in related speakers: A forensic-voice-comparison investigation</title>
+      <link>https://eugeniasansegundo.github.io/landing/san-segundo-formant-2019/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/landing/san-segundo-formant-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formant dynamics of Spanish vocalic sequences in related speakers: A forensic-voice-comparison investigation</title>
+      <link>https://eugeniasansegundo.github.io/publication/san-segundo-formant-2019/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-formant-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

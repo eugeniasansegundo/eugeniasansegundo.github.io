@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>5 on Eugenia San Segundo</title>
+    <link>https://eugeniasansegundo.github.io/publication_types/5/</link>
+    <description>Recent content in 5 on Eugenia San Segundo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 May 2023 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://eugeniasansegundo.github.io/publication_types/5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>La fonética forense: nuevos retos y nuevas líneas de investigación</title>
+      <link>https://eugeniasansegundo.github.io/publication/san-segundo-lafonetica-2023/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-lafonetica-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La percepción del habla</title>
+      <link>https://eugeniasansegundo.github.io/publication/gil-percepcion-2015/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/publication/gil-percepcion-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

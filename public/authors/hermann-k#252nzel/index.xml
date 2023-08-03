@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hermann K&amp;#252;nzel on Eugenia San Segundo</title>
+    <link>https://eugeniasansegundo.github.io/authors/hermann-k#252nzel/</link>
+    <description>Recent content in Hermann K&amp;#252;nzel on Eugenia San Segundo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Jan 2015 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://eugeniasansegundo.github.io/authors/hermann-k#252nzel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Automatic Speaker Recognition of Spanish siblings: (monozygotic and dizygotic) twins and non-twin brothers</title>
+      <link>https://eugeniasansegundo.github.io/landing/san-segundo-automatic-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/landing/san-segundo-automatic-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatic Speaker Recognition of Spanish siblings: (monozygotic and dizygotic) twins and non-twin brothers</title>
+      <link>https://eugeniasansegundo.github.io/publication/san-segundo-automatic-2015/</link>
+      <pubDate>Thu, 01 Jan 2015 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-automatic-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
