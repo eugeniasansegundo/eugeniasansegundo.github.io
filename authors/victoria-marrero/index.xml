@@ -6,10 +6,19 @@
     <description>Recent content in Victoria Marrero on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 01 May 2023 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jun 2023 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://eugeniasansegundo.github.io/authors/victoria-marrero/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>¿Voz real o deepfake? Aportaciones desde la fonética forense</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-voz-2023/</link>
+      <pubDate>Thu, 22 Jun 2023 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-voz-2023/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>El efecto «otro acento» en una rueda de reconocimiento de voces: un estudio perceptivo en español</title>

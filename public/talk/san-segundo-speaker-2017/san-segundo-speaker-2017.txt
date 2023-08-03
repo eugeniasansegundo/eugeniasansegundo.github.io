@@ -1,6 +1,0 @@
-@inproceedings{san2017speaker,
-  title={Speaker-similarity perception of Spanish twins and non-twins by native speakers of Spanish, German and English},
-  author={San Segundo, Eugenia and Braun, Almut and Hughes, Vincent and Foulkes, Paul},
-  booktitle=booktitle={26th Annual Conference of the International Association for Forensic Phonetics and Acoustics},
-year={2017}
-}
