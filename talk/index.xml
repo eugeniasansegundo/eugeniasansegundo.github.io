@@ -6,10 +6,28 @@
     <description>Recent content in Conference &amp; Invited Talks on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Aug 2023 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 02 Nov 2023 13:20:08 +0100</lastBuildDate>
     
 	<atom:link href="https://eugeniasansegundo.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Charla invitada sobre fonética forense</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-charla-2023/</link>
+      <pubDate>Thu, 02 Nov 2023 13:20:08 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-charla-2023/</guid>
+      <description> Ponencia invitada en el Cuarto Seminario de Lingüística y Fonética Forense, organizado por el Laboratorio de Fonética y el Servicio General de Apoyo a la Investigación de la Universidad de La Laguna.   </description>
+    </item>
+    
+    <item>
+      <title>Fonética forense: no existe un libro de recetas</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-fonetica-2023/</link>
+      <pubDate>Thu, 02 Nov 2023 12:49:08 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-fonetica-2023/</guid>
+      <description> Ponencia invitada en el Seminario formativo Perspectivas de análisis en fonética experimental, enmarcado en el Programa de Doctorado Interuniversitario de Lenguas y Culturas, celebrado en el Edificio López de Alba y Aula Magna de la Facultad de Filosofía y Letras (Universidad de Córdoba) el día 19 de octubre de 2023.   </description>
+    </item>
     
     <item>
       <title>Characterizing rhythm in dysarthric speech using the temporal envelope</title>
