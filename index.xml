@@ -5,8 +5,44 @@
     <description>Recent content in Eugenia San Segundo on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2024 11:10:57 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 11 Sep 2024 20:07:47 +0200</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Speaker identification of artificially cloned voices versus the voices of identical twins: a perceptual test.</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-speaker-2024/</link>
+      <pubDate>Wed, 11 Sep 2024 20:07:47 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-speaker-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Voice deepfakes and the voices of identical twins: a preliminary acoustic analysis</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-voice-2024/</link>
+      <pubDate>Wed, 11 Sep 2024 20:07:47 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-voice-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clustering approaches to dysarthria using spectral measures from the temporal envelope</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-cluster-2024/</link>
+      <pubDate>Tue, 02 Jul 2024 20:38:53 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-cluster-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La fonética forense: de dónde venimos y hacia dónde vamos</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-fonetica-2024/</link>
+      <pubDate>Tue, 23 Apr 2024 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-fonetica-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Profundizando en los deepfakes: ¿Qué hace humana a una voz?</title>
@@ -41,9 +77,34 @@
     </item>
     
     <item>
+      <title>¿Voz real o deepfake? Aportaciones desde la fonética forense</title>
+      <link>https://eugeniasansegundo.github.io/publication/san-segundo-voz-2023/</link>
+      <pubDate>Tue, 24 Oct 2023 00:23:04 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-voz-2023/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fonética forense: no existe un libro de recetas</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-fonetica-2023/</link>
+      <pubDate>Thu, 19 Oct 2023 12:49:08 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-fonetica-2023/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    
+Ponencia invitada en el Seminario formativo Perspectivas de análisis en fonética experimental, enmarcado en el Programa de Doctorado Interuniversitario de Lenguas y Culturas, celebrado en el Edificio López de Alba y Aula Magna de la Facultad de Filosofía y Letras (Universidad de Córdoba) el día 19 de octubre de 2023.
+
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Charla invitada sobre fonética forense</title>
       <link>https://eugeniasansegundo.github.io/talk/san-segundo-charla-2023/</link>
-      <pubDate>Thu, 02 Nov 2023 13:20:08 +0100</pubDate>
+      <pubDate>Mon, 16 Oct 2023 13:20:08 +0100</pubDate>
       
       <guid>https://eugeniasansegundo.github.io/talk/san-segundo-charla-2023/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
@@ -52,22 +113,6 @@
 
 Ponencia invitada en el Cuarto Seminario de Lingüística y Fonética Forense, organizado por el Laboratorio de Fonética y el Servicio General de Apoyo a la Investigación de la Universidad de La Laguna. 
 
-
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fonética forense: no existe un libro de recetas</title>
-      <link>https://eugeniasansegundo.github.io/talk/san-segundo-fonetica-2023/</link>
-      <pubDate>Thu, 02 Nov 2023 12:49:08 +0100</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-fonetica-2023/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    
-Ponencia invitada en el Seminario formativo Perspectivas de análisis en fonética experimental, enmarcado en el Programa de Doctorado Interuniversitario de Lenguas y Culturas, celebrado en el Edificio López de Alba y Aula Magna de la Facultad de Filosofía y Letras (Universidad de Córdoba) el día 19 de octubre de 2023.
 
   &lt;/div&gt;
 &lt;/div&gt;
@@ -116,94 +161,6 @@ Ponencia invitada en el Seminario formativo Perspectivas de análisis en fonéti
       <pubDate>Mon, 01 May 2023 00:00:00 +0200</pubDate>
       
       <guid>https://eugeniasansegundo.github.io/publication/san-segundo-lafonetica-2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>La fonética forense: qué es y cuáles son sus principales áreas de aplicación</title>
-      <link>https://eugeniasansegundo.github.io/publication/san-segundo-foneticaforense-2023/</link>
-      <pubDate>Mon, 01 May 2023 00:00:00 +0200</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-foneticaforense-2023/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://www.scimagojr.com/journalsearch.php?q=19700200924&amp;amp;tip=sid&amp;amp;exact=no&#34; title=&#34;SCImago Journal &amp;amp; Country Rank&#34;&gt;&lt;img border=&#34;0&#34; src=&#34;https://www.scimagojr.com/journal_img.php?id=19700200924&#34; alt=&#34;SCImago Journal &amp;amp; Country Rank&#34;  /&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Innovación docente en Análisis del Discurso a través de textos humorísticos continuos y discontinuos</title>
-      <link>https://eugeniasansegundo.github.io/project/teaching-innovation-project2/</link>
-      <pubDate>Wed, 07 Sep 2022 17:46:13 +0100</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/project/teaching-innovation-project2/</guid>
-      <description>&lt;p&gt;Title: Innovación docente en Análisis del Discurso a través de textos humorísticos continuos y discontinuos&lt;/p&gt;
-
-&lt;p&gt;IP: Eugenia San Segundo&lt;/p&gt;
-
-&lt;p&gt;Collaborators: Cristóbal San Miguel Lobo, Casilda Elorriaga del Hierro&lt;/p&gt;
-
-&lt;p&gt;Dates: 2022-2023&lt;/p&gt;
-
-&lt;p&gt;El objetivo de este proyecto ha sido mejorar el aprendizaje de los estudiantes de la asignatura &lt;em&gt;Aspectos Discursivos y Textuales de la Comunicación Lingüística en Español&lt;/em&gt;, promoviendo su motivación, participación y mejora del rendimiento. El alto grado de participación en las PEC diseñadas conjuntamente por la coordinadora y los tutores de la asignatura, así como las altas calificaciones obtenidas por el alumnado, demuestran su mejora en: a) el desarrollo de habilidades para la descripción y el análisis de aspectos lingüísticos que afectan al análisis del discurso del texto humorístico, y b) la actualización y ampliación de conocimientos lingüísticos de otras asignaturas del Grado en Lengua y Literatura Española. Asimismo, la valoración global de la asignatura (79,21), reflejada en los cuestionarios de satisfacción realizados por los estudiantes, mejora en casi 20 puntos con respecto al curso anterior. La asignatura figura así por encima de la media del Grado en Lengua y Literatura Española, contribuyendo a mejorar la valoración global de este.&lt;/p&gt;
-
-&lt;p&gt;Awarded by: UNED&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How deepfake is your voice? Understanding the linguistic foundations of deepfakes</title>
-      <link>https://eugeniasansegundo.github.io/project/deepfakes/</link>
-      <pubDate>Thu, 01 Sep 2022 16:12:29 +0100</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/project/deepfakes/</guid>
-      <description>&lt;p&gt;PI: Eugenia San Segundo (UNED)&lt;/p&gt;
-
-&lt;p&gt;Team members: Victoria Marrero (UNED), Jonathan Delgado (ULL), Jorge Gurlekian, Pedro Univaso y Humberto Torres (CONICET).&lt;/p&gt;
-
-&lt;p&gt;Dates: 2022 - 2025&lt;/p&gt;
-
-&lt;p&gt;Funder: Spanish Ministry of Science and Innovation&lt;/p&gt;
-
-&lt;p&gt;T&amp;#205;TULO DEL PROYECTO (ACR&amp;#211;NIMO): &amp;#191;Qu&amp;#233; hace humana a una voz? Hacia una mejor comprensi&amp;#243;n de las caracter&amp;#237;sticas fon&amp;#233;ticas que permiten distinguir voces reales de deepfakes (HowDIs: How Deepfake Is your voice)&lt;/p&gt;
-
-&lt;p&gt;TITLE OF THE PROJECT (ACRONYM): How deepfake is your voice? Understanding the linguistic foundations of deepfakes (HowDIs)&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;This project aims to bridge the gap between the latest research carried out in the field of telecommunications engineering, aimed at
-designing automatic systems to avoid spoofing attacks, and the linguistic-phonetic knowledge that can help distinguish real voices from
-fake voices, helping therefore to detect videos and audios that are fake but very realistic (the so-called &amp;ldquo;deepfakes&amp;rdquo;). Although this last
-scientific area (that is, the linguistic area) has not yet been sufficiently explored in the aforementioned context, we consider that it has great
-potential when it comes to addressing one of the most important security challenges faced all over the world nowadays. We refer to
-deepfakes, a term used to designate videos or audios that, without being real, seem so due to an extreme and sophisticated manipulation,
-carried out using artificial intelligence techniques. Generally, this manipulation occurs in the facial and sound domain; in other words, what
-is most frequently transformed are people&amp;rsquo;s faces and voices. In particular, in the field of voice (which is tackled both by phoneticians and
-speech engineers), due to the growing development of deep neural networks, there is a real threat that deepfakes will create audios of
-such extreme realism that it will not possible to distinguish them from real voices.
-It is clear that if these technological advances fall into the hands of criminals, such as fraudsters, there is a serious risk of major security
-breaches, taking into account that access to bank accounts through voice authentication is increasingly common. These types of situations
-are known as spoofing attacks. However, beyond these risks, the investigations carried out in the field of deepfakes have a broader impact
-on society, since the manipulation of voices -of politicians, for example- to create false news is increasingly frequent. This is leading to an
-unprecedented loss of confidence in the media, with clear repercussions on the decisions that citizens make in political life, as shown by
-some recent examples (e.g. fake news in the Brexit campaign, or in the last elections presidential elections in the US).
-In this project we propose that the fight against voice deepfakes should be led by interdisciplinary research groups beyond the engineering teams that are currently dealing with the design of anti-spoofing attack systems. Forensic phoneticians have extensive experience in comparing very similar voices (such as the voices of twins), for which they analyze a great variety of acoustic or perceptual-type vocal parameters.The characterization of voices in Spanish can be approached from multiple angles. As a result of previous studies, it has been observed that human voices present a common denominator: high intra-speaker variation, which is due to emotional, pragmatic-contextual factors, related to the health of the speaker, etc. This type of variation is difficult to control voluntarily; therefore, it can be said that it constitutes what makes us human. In short, this project will aim to answer the question of &amp;ldquo;what makes a voice human&amp;rdquo; as a first step to be able to distinguish when we are dealing with a deepfake.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Earwitness identification accuracy: the &#39;other accent&#39; effect in a forensic voice parade experiment</title>
-      <link>https://eugeniasansegundo.github.io/talk/san-segundo-earwitness-2022/</link>
-      <pubDate>Tue, 19 Jul 2022 00:00:00 +0200</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-earwitness-2022/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Acoustic-perceptual characterization of dysarthria</title>
-      <link>https://eugeniasansegundo.github.io/talk/san-segundo-acoustic-2022/</link>
-      <pubDate>Tue, 31 May 2022 00:00:00 +0200</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-acoustic-2022/</guid>
       <description></description>
     </item>
     
