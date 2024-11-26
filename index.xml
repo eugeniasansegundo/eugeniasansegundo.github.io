@@ -5,8 +5,45 @@
     <description>Recent content in Eugenia San Segundo on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 11 Sep 2024 20:07:47 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2024 18:39:04 +0100</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deepfakes frente a voces de gemelos idénticos: un análisis acústico preliminar</title>
+      <link>https://eugeniasansegundo.github.io/publication/san-segundo-deepfakes-2024/</link>
+      <pubDate>Mon, 25 Nov 2024 18:39:04 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-deepfakes-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Reconocimiento perceptivo de hablantes: un experimento con voces clonadas artificialmente y con voces de gemelos idénticos</title>
+      <link>https://eugeniasansegundo.github.io/publication/san-segundo-reconocimiento-2024/</link>
+      <pubDate>Mon, 25 Nov 2024 18:27:24 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-reconocimiento-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entrevista en Canal Sur Radio</title>
+      <link>https://eugeniasansegundo.github.io/dissemination/canal-sur-radio/</link>
+      <pubDate>Tue, 19 Nov 2024 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/dissemination/canal-sur-radio/</guid>
+      <description>&lt;p&gt;En el programa &lt;em&gt;Tírame de la lengua&lt;/em&gt; hablé de la fonética forense con el lingüista Alfie Herero.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>El reto de investigar deepfakes de voz en la era de la inteligencia artificial</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-reto-2024/</link>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-reto-2024/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Speaker identification of artificially cloned voices versus the voices of identical twins: a perceptual test.</title>
@@ -28,10 +65,37 @@
     
     <item>
       <title>Clustering approaches to dysarthria using spectral measures from the temporal envelope</title>
-      <link>https://eugeniasansegundo.github.io/talk/san-segundo-cluster-2024/</link>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-clustering-2024/</link>
       <pubDate>Tue, 02 Jul 2024 20:38:53 +0200</pubDate>
       
-      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-cluster-2024/</guid>
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-clustering-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clustering approaches to dysarthria using spectral measures from the temporal envelope</title>
+      <link>https://eugeniasansegundo.github.io/publication/san-segundo-clustering-2024/</link>
+      <pubDate>Tue, 02 Jul 2024 18:00:19 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-clustering-2024/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mesa redonda: Impacto social y futuro de la tecnología digital aplicada a la cultura</title>
+      <link>https://eugeniasansegundo.github.io/dissemination/mesa-redonda-acci%C3%B3n-cultural/</link>
+      <pubDate>Tue, 28 May 2024 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/dissemination/mesa-redonda-acci%C3%B3n-cultural/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>El efecto «otro acento» en una rueda de reconocimiento de voces: un estudio perceptivo en español</title>
+      <link>https://eugeniasansegundo.github.io/publication/san-segundo-efecto-2024/</link>
+      <pubDate>Wed, 01 May 2024 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-efecto-2024/</guid>
       <description></description>
     </item>
     
@@ -77,15 +141,6 @@
     </item>
     
     <item>
-      <title>¿Voz real o deepfake? Aportaciones desde la fonética forense</title>
-      <link>https://eugeniasansegundo.github.io/publication/san-segundo-voz-2023/</link>
-      <pubDate>Tue, 24 Oct 2023 00:23:04 +0200</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-voz-2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Fonética forense: no existe un libro de recetas</title>
       <link>https://eugeniasansegundo.github.io/talk/san-segundo-fonetica-2023/</link>
       <pubDate>Thu, 19 Oct 2023 12:49:08 +0100</pubDate>
@@ -99,69 +154,6 @@ Ponencia invitada en el Seminario formativo Perspectivas de análisis en fonéti
   &lt;/div&gt;
 &lt;/div&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Charla invitada sobre fonética forense</title>
-      <link>https://eugeniasansegundo.github.io/talk/san-segundo-charla-2023/</link>
-      <pubDate>Mon, 16 Oct 2023 13:20:08 +0100</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-charla-2023/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    
-
-Ponencia invitada en el Cuarto Seminario de Lingüística y Fonética Forense, organizado por el Laboratorio de Fonética y el Servicio General de Apoyo a la Investigación de la Universidad de La Laguna. 
-
-
-  &lt;/div&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Characterizing rhythm in dysarthric speech using the temporal envelope</title>
-      <link>https://eugeniasansegundo.github.io/publication/san-segundo-characterizing-2023/</link>
-      <pubDate>Wed, 23 Aug 2023 18:00:19 +0200</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-characterizing-2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Characterizing rhythm in dysarthric speech using the temporal envelope</title>
-      <link>https://eugeniasansegundo.github.io/talk/san-segundo-characterizing-2023/</link>
-      <pubDate>Tue, 08 Aug 2023 00:00:00 +0200</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-characterizing-2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>¿Voz real o deepfake? Aportaciones desde la fonética forense</title>
-      <link>https://eugeniasansegundo.github.io/talk/san-segundo-voz-2023/</link>
-      <pubDate>Thu, 22 Jun 2023 00:00:00 +0200</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-voz-2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>El efecto «otro acento» en una rueda de reconocimiento de voces: un estudio perceptivo en español</title>
-      <link>https://eugeniasansegundo.github.io/publication/san-segundo-efecto-2023/</link>
-      <pubDate>Mon, 01 May 2023 00:00:00 +0200</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-efecto-2023/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>La fonética forense: nuevos retos y nuevas líneas de investigación</title>
-      <link>https://eugeniasansegundo.github.io/publication/san-segundo-lafonetica-2023/</link>
-      <pubDate>Mon, 01 May 2023 00:00:00 +0200</pubDate>
-      
-      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-lafonetica-2023/</guid>
-      <description></description>
     </item>
     
   </channel>
