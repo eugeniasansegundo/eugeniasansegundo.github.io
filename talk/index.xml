@@ -6,10 +6,73 @@
     <description>Recent content in Conference &amp; Invited Talks on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 13 Aug 2025 20:48:03 +0200</lastBuildDate>
     
 	<atom:link href="https://eugeniasansegundo.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Evaluación de la percepción humana en la detección de deepfakes de voz</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-evaluacion-2025/</link>
+      <pubDate>Wed, 13 Aug 2025 20:48:03 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-evaluacion-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perception of audio deepfakes in Spanish and Japanese: effects of language, speaking style, and voice familiarity</title>
+      <link>https://eugeniasansegundo.github.io/talk/lopez-jareno-perception-2025/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/lopez-jareno-perception-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Perceptual evaluation of synthetic voice detection with dysphonic speakers</title>
+      <link>https://eugeniasansegundo.github.io/talk/romero-perceptual-2015/</link>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/romero-perceptual-2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Audio Deepfakes and Forensic Phonetics</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-audio-2025/</link>
+      <pubDate>Fri, 25 Apr 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-audio-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Algunas reflexiones sobre los deepfakes de voz</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-algunas-2025/</link>
+      <pubDate>Tue, 01 Apr 2025 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-algunas-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unmasking Voice Deepfakes: The Role of Phoneticians</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-unmasking-2025/</link>
+      <pubDate>Mon, 24 Feb 2025 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-unmasking-2025/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Los deepfakes de voz: ¿qué podemos aportar los fonetistas?</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-deepfakes-2025/</link>
+      <pubDate>Tue, 18 Feb 2025 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-deepfakes-2025/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>El reto de investigar deepfakes de voz en la era de la inteligencia artificial</title>
