@@ -6,10 +6,73 @@
     <description>Recent content in Conference &amp; Invited Talks on Eugenia San Segundo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Aug 2025 20:48:03 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://eugeniasansegundo.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Comparing humans and neural networks in speech deepfake detection</title>
+      <link>https://eugeniasansegundo.github.io/talk/otero-comparing-2026/</link>
+      <pubDate>Tue, 28 Jul 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/otero-comparing-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Voice Quality in Forensic Phonetics: When, How, and Why?</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-voice-2026/</link>
+      <pubDate>Thu, 21 May 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-voice-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploring Intonational Contours in Human and Synthetic Speech: An F0-Based Study of Venezuelan Spanish</title>
+      <link>https://eugeniasansegundo.github.io/talk/moraes-exploring-2026/</link>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/moraes-exploring-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automatically-extracted rhythm metrics can distinguish the presence, subtype, and severity of ataxic dysarthria</title>
+      <link>https://eugeniasansegundo.github.io/talk/parrell-automatically-2026/</link>
+      <pubDate>Wed, 25 Feb 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/parrell-automatically-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>«Sonaba como Siri después de un café»: El oído humano como detector de deepfakes de voz</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-sonaba-2026/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-sonaba-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La capacidad humana para detectar voces sintéticas: un estudio perceptivo en español y japonés</title>
+      <link>https://eugeniasansegundo.github.io/talk/lopez-jareno-capacidad-2026/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/lopez-jareno-capacidad-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La regulación de las voces sintéticas y clonadas: desafíos para la ciencia, la ética y el derecho</title>
+      <link>https://eugeniasansegundo.github.io/talk/rodriguez-regulacion-2026/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/rodriguez-regulacion-2026/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Evaluación de la percepción humana en la detección de deepfakes de voz</title>

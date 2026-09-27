@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eugenia San Segundo Fernández on Eugenia San Segundo</title>
+    <link>https://eugeniasansegundo.github.io/authors/eugenia-san-segundo-fern%C3%A1ndez/</link>
+    <description>Recent content in Eugenia San Segundo Fernández on Eugenia San Segundo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Jan 2026 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://eugeniasansegundo.github.io/authors/eugenia-san-segundo-fern%C3%A1ndez/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>«Sonaba como Siri después de un café»: El oído humano como detector de deepfakes de voz</title>
+      <link>https://eugeniasansegundo.github.io/talk/san-segundo-sonaba-2026/</link>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/san-segundo-sonaba-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La capacidad humana para detectar voces sintéticas: un estudio perceptivo en español y japonés</title>
+      <link>https://eugeniasansegundo.github.io/talk/lopez-jareno-capacidad-2026/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/lopez-jareno-capacidad-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>La regulación de las voces sintéticas y clonadas: desafíos para la ciencia, la ética y el derecho</title>
+      <link>https://eugeniasansegundo.github.io/talk/rodriguez-regulacion-2026/</link>
+      <pubDate>Tue, 13 Jan 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/talk/rodriguez-regulacion-2026/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

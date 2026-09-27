@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blanca Hernández on Eugenia San Segundo</title>
+    <link>https://eugeniasansegundo.github.io/authors/blanca-hern%C3%A1ndez/</link>
+    <description>Recent content in Blanca Hernández on Eugenia San Segundo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Aug 2026 21:11:38 +0200</lastBuildDate>
+    
+	<atom:link href="https://eugeniasansegundo.github.io/authors/blanca-hern%C3%A1ndez/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Beyond the black box: Explainable deepfake detection through prosodic analysis of the Spanish discourse marker «¿no?»</title>
+      <link>https://eugeniasansegundo.github.io/publication/hernandez-beyond-2026/</link>
+      <pubDate>Sun, 16 Aug 2026 21:11:38 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/publication/hernandez-beyond-2026/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

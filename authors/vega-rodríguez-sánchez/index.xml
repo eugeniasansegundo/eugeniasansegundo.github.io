@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vega Rodríguez Sánchez on Eugenia San Segundo</title>
+    <link>https://eugeniasansegundo.github.io/authors/vega-rodr%C3%ADguez-s%C3%A1nchez/</link>
+    <description>Recent content in Vega Rodríguez Sánchez on Eugenia San Segundo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 May 2026 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://eugeniasansegundo.github.io/authors/vega-rodr%C3%ADguez-s%C3%A1nchez/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>«Eso es IA»: cómo los deepfakes nos hacen sospechar de todo</title>
+      <link>https://eugeniasansegundo.github.io/publication/san-segundo-eso-2026/</link>
+      <pubDate>Tue, 05 May 2026 00:00:00 +0200</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-eso-2026/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Audio Deepfakes and Synthetic Media: Reading list [DATASET]</title>
+      <link>https://eugeniasansegundo.github.io/publication/san-segundo-audio-2026/</link>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0100</pubDate>
+      
+      <guid>https://eugeniasansegundo.github.io/publication/san-segundo-audio-2026/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
